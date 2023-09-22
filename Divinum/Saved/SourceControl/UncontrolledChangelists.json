@@ -5,7 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Abhi/Dropbox/PC/Documents/GitHub/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Maps/TestMap.umap",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Assets/SM_Rook.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Assets/SM_Bishop.uasset",
@@ -29,8 +28,6 @@
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Blueprints/En_Color.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_SquareDark.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_SquareLight.uasset",
-				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceLight.uasset",
-				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceDark.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceRed.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceBlue.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/M_Marker.uasset",
@@ -38,8 +35,14 @@
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_MarkerHighlight.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_MarkerAttack.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/M_Darkwood.uasset",
-				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/M_Darkwood1.uasset",
-				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/M_Lightwood.uasset"
+				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/M_Lightwood.uasset",
+				"D:/DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset",
+				"D:/DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Maps/TestMap.umap",
+				"D:/DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset",
+				"C:/Users/Abhi/Dropbox/PC/Documents/GitHub/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset",
+				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceLight.uasset",
+				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceDark.uasset",
+				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/M_Darkwood1.uasset"
 			]
 		}
 	]
