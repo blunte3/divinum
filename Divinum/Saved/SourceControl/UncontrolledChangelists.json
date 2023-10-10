@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Abhi/Dropbox/PC/Documents/GitHub/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset",
+				"C:/Users/Abhi/Dropbox/PC/Documents/GitHub/divinum/Divinum/Content/Divinum/Maps/TestMap.umap",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Maps/TestMap.umap",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Assets/SM_Rook.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Assets/SM_Bishop.uasset",
@@ -43,7 +45,6 @@
 				"D:/DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Player.uasset",
 				"D:/DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/ST_Player.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Blueprints/ST_Move.uasset",
-				"C:/Users/Abhi/Dropbox/PC/Documents/GitHub/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceLight.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/Mi_TokenPieceDark.uasset",
 				"D:/DIVINUM/NOTGITHUB/Divinum/Content/Divinum/Materials/M_Darkwood1.uasset"
