@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\Divinum\\DefaultToken.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\.vscode\\compileCommands_Divinum\\Divinum.1.rsp"
+		],
+		"directory": "D:\\installs\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\Divinum\\DefaultToken.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\.vscode\\compileCommands_Divinum\\Divinum.1.rsp"
+		],
+		"directory": "D:\\installs\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\Divinum\\Divinum.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\.vscode\\compileCommands_Divinum\\Divinum.1.rsp"
+		],
+		"directory": "D:\\installs\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\Divinum\\Divinum.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\.vscode\\compileCommands_Divinum\\Divinum.1.rsp"
+		],
+		"directory": "D:\\installs\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\Divinum\\Divinum.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\.vscode\\compileCommands_Divinum\\Divinum.1.rsp"
+		],
+		"directory": "D:\\installs\\UE_5.3\\Engine\\Source"
+	}
+]

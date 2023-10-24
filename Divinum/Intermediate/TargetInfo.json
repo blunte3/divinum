@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Divinum",
+			"Path": "..\\Source\\Divinum.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DivinumEditor",
+			"Path": "..\\Source\\DivinumEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
