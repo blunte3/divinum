@@ -8,7 +8,6 @@ ADefaultToken::ADefaultToken()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned
@@ -30,5 +29,9 @@ void ADefaultToken::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-}
+	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveForward));
+	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveBackward));
+	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveLeft));
+	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveRight));
 
+}

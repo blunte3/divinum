@@ -11,7 +11,9 @@
     <None Include="..\..\Source\DivinumEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\.ignore" />
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <None Include="..\..\Divinum.code-workspace" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -19,38 +21,38 @@
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Divinum">
       <UniqueIdentifier>{86BDCC5C-5F1E-3A0B-85C0-6550FA02159E}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Source\Divinum\Divinum.Build.cs">
-      <Filter>Source\Divinum</Filter>
-    </None>
-    <ClInclude Include="..\..\Source\Divinum\Divinum.h">
-      <Filter>Source\Divinum</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Divinum\Divinum.cpp">
+    <ClCompile Include="..\..\Source\Divinum\DefaultToken.cpp">
       <Filter>Source\Divinum</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Divinum\DefaultToken.h">
       <Filter>Source\Divinum</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Divinum\DefaultToken.cpp">
+    <None Include="..\..\Source\Divinum\Divinum.Build.cs">
+      <Filter>Source\Divinum</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Divinum\Divinum.cpp">
       <Filter>Source\Divinum</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Divinum\Divinum.h">
+      <Filter>Source\Divinum</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

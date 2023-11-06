@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\Divinum\\Divinum.Build.cs",
-		"D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\Divinum.Target.cs",
-		"D:\\DIVINUM\\VIDEOGAME\\divinum\\Divinum\\Source\\DivinumEditor.Target.cs"
+		"C:\\Users\\Abhi\\Dropbox\\PC\\Documents\\GitHub\\divinum\\Divinum\\Source\\Divinum\\Divinum.Build.cs",
+		"C:\\Users\\Abhi\\Dropbox\\PC\\Documents\\GitHub\\divinum\\Divinum\\Source\\Divinum.Target.cs",
+		"C:\\Users\\Abhi\\Dropbox\\PC\\Documents\\GitHub\\divinum\\Divinum\\Source\\DivinumEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.0"
 }
