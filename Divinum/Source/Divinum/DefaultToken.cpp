@@ -28,10 +28,8 @@ void ADefaultToken::Tick(float DeltaTime)
 void ADefaultToken::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+}
 
-	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveForward));
-	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveBackward));
-	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveLeft));
-	InputComponent->BindAxis(TEXT("", Object:this, &ADefaultToken::MoveRight));
-
+void ADefaultToken::movement(int xpos, int ypos, int dir, int movespeed) {
+	//should take in the location of the selected token, look in the direction it needs to go, and move number of squares based on movespeed
 }

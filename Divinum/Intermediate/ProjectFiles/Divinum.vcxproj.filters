@@ -54,5 +54,11 @@
     <ClInclude Include="..\..\Source\Divinum\Divinum.h">
       <Filter>Source\Divinum</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Divinum\Mage_Pawn.cpp">
+      <Filter>Source\Divinum</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Divinum\Mage_Pawn.h">
+      <Filter>Source\Divinum</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

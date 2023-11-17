@@ -15,22 +15,13 @@ public:
 	// Sets default values for this pawn's properties
 	ADefaultToken();
 
-	UFUNCTION(BlueprintCallable, Category = "Movement")
-	void MoveForward();
-
-	UFUNCTION(BlueprintCallable, Category = "Movement")
-	void MoveBackward();
-
-	UFUNCTION(BlueprintCallable, Category = "Movement")
-	void MoveLeft();
-
-	UFUNCTION(BlueprintCallable, Category = "Movement")
-	void MoveRight();
-
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere)
+	void movement(int xpos, int ypos, int dir, int movespeed);
 
 public:	
 	// Called every frame

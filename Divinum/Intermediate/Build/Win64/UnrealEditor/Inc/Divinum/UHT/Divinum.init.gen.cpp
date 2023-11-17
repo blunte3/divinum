@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeDivinum_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBF065EB6,
-				0x55C611B1,
+				0x5075E55C,
+				0x2C34D9EE,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Divinum.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Divinum.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Divinum(Z_Construct_UPackage__Script_Divinum, TEXT("/Script/Divinum"), Z_Registration_Info_UPackage__Script_Divinum, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xBF065EB6, 0x55C611B1));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Divinum(Z_Construct_UPackage__Script_Divinum, TEXT("/Script/Divinum"), Z_Registration_Info_UPackage__Script_Divinum, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x5075E55C, 0x2C34D9EE));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
