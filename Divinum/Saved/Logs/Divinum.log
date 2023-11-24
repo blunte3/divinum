@@ -1117,6 +1117,7 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.11.24-20.23.29:490][  0]LogViewport: Scene viewport resized to 1434x659, mode Windowed.
 [2023.11.24-20.23.29:570][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
 
+<<<<<<< Updated upstream
 [2023.11.24-20.23.29:574][  1]Running Python start-up script 'D:/installs/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.029447 secs
 [2023.11.24-20.23.29:574][  1]LogLiveCoding: Display: LiveCodingConsole Arguments: DivinumEditor Win64 Development
 [2023.11.24-20.23.29:814][  2]LogD3D12RHI: Cannot end block when stack is empty
@@ -1715,3 +1716,938 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.11.24-20.23.55:608][  0]LogD3D12RHI: ~FD3D12DynamicRHI
 [2023.11.24-20.23.55:637][  0]LogExit: Exiting.
 [2023.11.24-20.23.55:869][  0]Log file closed, 11/24/23 15:23:55
+=======
+[2023.11.24-19.29.24:301][  1]Running Python start-up script 'D:/installs/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.317204 secs
+[2023.11.24-19.29.24:430][  1]LogLiveCoding: Display: LiveCodingConsole Arguments: DivinumEditor Win64 Development
+[2023.11.24-19.29.24:497][  2]LogD3D12RHI: Cannot end block when stack is empty
+[2023.11.24-19.29.24:602][  5]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.11.24-19.29.24:623][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.24-19.29.24:623][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-19.29.24:633][  5]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.11.24-19.29.26:607][  5]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.11.24-19.29.26:866][  5]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.258458s
+[2023.11.24-19.29.26:989][  5]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.385913s (0.385913s overbudget)
+[2023.11.24-19.29.27:044][  5]LogSlate: Took 0.004556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.11.24-19.29.27:066][  5]LogSlate: Took 0.004754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.11.24-19.29.27:196][  7]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.24-19.30.01:024][254]LogViewport: Scene viewport resized to 850x847, mode Windowed.
+[2023.11.24-19.30.02:369][323]LogSlate: Took 0.008518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.24-19.30.07:045][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.24-19.30.07:124][583]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.24-19.30.08:309][641]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.30.08:309][641]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.24-19.30.08:309][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-19.30.54:504][772]LogDerivedDataCache: C:/Users/blunte3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.047 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 230 files in 435 folders with total size 12 MiB.
+[2023.11.24-19.31.15:899][746]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.11.24-19.31.16:072][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.24-19.31.17:273][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.31.17:409][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.11.24-19.31.17:418][796]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.008732 seconds
+[2023.11.24-19.31.17:674][796]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.11.24-19.31.17:676][796]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquare52F8376A4B043856BC57B4B7BA0E390E.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.11.24-19.31.17:690][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 416 ms
+[2023.11.24-19.31.17:691][796]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.11.24-19.31.17:691][796]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.11.24-19.31.44:831][403]LogViewport: Scene viewport resized to 520x641, mode Windowed.
+[2023.11.24-19.32.40:361][603]LogSlate: Took 0.005285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.11.24-19.35.46:303][954]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.35.46:429][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.35.46:535][954]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.35.46:537][954]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardC6275E75451A0CFE675C66A8094390B0.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.35.46:550][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 246 ms (total: 663 ms)
+[2023.11.24-19.35.46:552][954]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.35.46:552][954]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.35.47:433][  7]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.35.47:486][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.11.24-19.36.15:514][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.36.15:647][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.36.15:754][332]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.36.15:756][332]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board93981C3443C70D5C7E429C996DF8DCD9.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.36.15:769][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 254 ms (total: 918 ms)
+[2023.11.24-19.36.15:770][332]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.36.15:770][332]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.36.16:763][392]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.36.16:805][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.11.24-19.39.22:777][285]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.39.22:892][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.39.23:034][285]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.39.23:036][285]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardACFAA84149799468D6FAFA9E5AC8D640.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.39.23:049][285]LogFileHelpers: InternalPromptForCheckoutAndSave took 272 ms (total: 1.19 sec)
+[2023.11.24-19.39.23:051][285]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.39.23:051][285]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.39.24:005][337]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.39.24:048][337]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.11.24-19.40.27:792][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.40.27:915][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.40.28:061][629]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.40.28:063][629]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board2D9CAB3A4A73C05831467F9D64CCA392.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.40.28:077][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 284 ms (total: 1.47 sec)
+[2023.11.24-19.40.28:078][629]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.40.28:078][629]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.40.28:987][684]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.40.29:030][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.11.24-19.41.48:837][977]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.41.48:883][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.11.24-19.41.49:928][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.41.50:070][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.41.50:203][ 96]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.41.50:204][ 96]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board7B9977874D0D2A77E52182AB51409304.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.41.50:217][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave took 289 ms (total: 1.76 sec)
+[2023.11.24-19.41.50:218][ 96]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.41.50:218][ 96]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.42.12:102][638]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.11.24-19.42.12:288][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.11.24-19.42.13:096][694]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.42.13:231][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.11.24-19.42.13:489][694]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.11.24-19.42.13:491][694]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquareA0A030FB4561F4F2F6A840952D177D93.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.11.24-19.42.13:503][694]LogFileHelpers: InternalPromptForCheckoutAndSave took 407 ms (total: 2.17 sec)
+[2023.11.24-19.42.13:505][694]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.11.24-19.42.13:505][694]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.11.24-19.42.17:590][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.42.17:723][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.42.17:853][166]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.42.17:855][166]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardCB702E6A42E5C251302FED82842B9662.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.42.17:868][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 278 ms (total: 2.45 sec)
+[2023.11.24-19.42.17:869][166]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.42.17:869][166]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.44.10:731][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.44.10:888][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.44.11:038][137]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.44.11:040][137]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board20DF9CB14FED26DE6D15FD82FB20C312.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.44.11:053][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 321 ms (total: 2.77 sec)
+[2023.11.24-19.44.11:055][137]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.44.11:055][137]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.44.12:970][363]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.44.13:023][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.24-19.45.10:327][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.45.10:445][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.45.10:617][274]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.45.10:619][274]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardF2D947FC470856565297C28F06CBC712.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.45.10:630][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 303 ms (total: 3.07 sec)
+[2023.11.24-19.45.10:632][274]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.45.10:632][274]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.45.11:633][385]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.45.11:682][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.11.24-19.46.25:633][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.46.25:744][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.46.25:901][930]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.46.25:903][930]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board0D694B734D090C07B06D2FAFE609332A.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.46.25:918][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 284 ms (total: 3.36 sec)
+[2023.11.24-19.46.25:919][930]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.46.25:919][930]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.46.32:246][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.11.24-19.46.32:247][619]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Divinum/Maps/TestMap' took 0.024
+[2023.11.24-19.46.32:248][619]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Divinum/Blueprints/Board/BP_Board] ([2] browsable assets)...
+[2023.11.24-19.46.32:260][619]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board]
+[2023.11.24-19.46.32:260][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/Divinum/Blueprints/Board/BP_Board]
+[2023.11.24-19.46.32:417][619]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Divinum/Blueprints/Board/BP_Board_Auto1
+[2023.11.24-19.46.32:419][619]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board_Auto123CC392E46C973B5BA341F964ADFB990.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/Autosaves/Game/Divinum/Blueprints/Board/BP_Board_Auto1.uasset'
+[2023.11.24-19.46.32:424][619]LogFileHelpers: Auto-saving content packages took 0.178
+[2023.11.24-19.46.44:416][  1]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.46.44:555][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.46.44:717][  1]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.46.44:719][  1]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board8585BE994BAE44B3313444BA5BAE92B1.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.46.44:731][  1]LogFileHelpers: InternalPromptForCheckoutAndSave took 313 ms (total: 3.67 sec)
+[2023.11.24-19.46.44:732][  1]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.46.44:732][  1]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.48.48:016][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.48.48:156][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.48.48:330][504]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.48.48:332][504]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardE2B737A144C17757D5B2C882F26F0265.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.48.48:344][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 327 ms (total: 4.00 sec)
+[2023.11.24-19.48.48:346][504]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.48.48:346][504]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.48.49:421][625]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.48.49:476][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.11.24-19.49.36:369][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.49.36:503][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.49.36:681][281]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.49.36:683][281]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board022D16C34DC6B59F31DABABA0A940C8E.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.49.36:694][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 324 ms (total: 4.32 sec)
+[2023.11.24-19.49.36:695][281]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.49.36:695][281]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.49.38:038][429]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.49.38:093][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.11.24-19.52.32:841][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.52.32:967][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.52.33:172][705]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.52.33:174][705]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board8B944D894774244FAF615C951180C588.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.52.33:185][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 343 ms (total: 4.67 sec)
+[2023.11.24-19.52.33:186][705]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.52.33:186][705]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.52.41:835][741]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.52.41:889][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.11.24-19.55.54:983][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.55.55:103][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.55.55:343][ 98]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.55.55:345][ 98]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardD3E7E8954E64CF4AEE6B5CA5E90B962E.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.55.55:356][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave took 373 ms (total: 5.04 sec)
+[2023.11.24-19.55.55:358][ 98]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.55.55:359][ 98]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.55.56:109][180]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.55.56:173][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.11.24-19.58.01:245][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.58.01:376][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.58.01:601][ 69]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.58.01:602][ 69]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board872673614EB56887BDA70F83693FD9A5.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.58.01:615][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave took 369 ms (total: 5.41 sec)
+[2023.11.24-19.58.01:617][ 69]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.58.01:617][ 69]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.58.02:824][212]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.58.02:884][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.24-19.59.04:836][259]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-19.59.04:897][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.11.24-19.59.05:806][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.59.05:947][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-19.59.06:160][360]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-19.59.06:162][360]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardB0B8E8FC41A6E5781B24BE9645A5E76F.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-19.59.06:175][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 369 ms (total: 5.78 sec)
+[2023.11.24-19.59.06:176][360]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-19.59.06:176][360]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-19.59.57:088][118]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-19.59.57:211][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.11.24-19.59.57:500][118]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.11.24-19.59.57:502][118]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquare23F9A2854943C7C26C6FEC8976B660B5.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.11.24-19.59.57:522][118]LogFileHelpers: InternalPromptForCheckoutAndSave took 434 ms (total: 6.21 sec)
+[2023.11.24-19.59.57:524][118]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.11.24-19.59.57:524][118]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.11.24-20.01.12:051][424]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.11.24-20.01.12:254][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.11.24-20.01.13:305][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.01.13:451][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.11.24-20.01.13:719][509]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.11.24-20.01.13:720][509]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquareB429826441ACFB1356117EBB2E100C04.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.11.24-20.01.13:732][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 426 ms (total: 6.64 sec)
+[2023.11.24-20.01.13:733][509]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.11.24-20.01.13:733][509]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.11.24-20.02.33:634][599]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.02.33:760][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.11.24-20.02.34:035][599]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.11.24-20.02.34:037][599]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquareCA4FA456489C6F05C28A25A5454C9105.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.11.24-20.02.34:049][599]LogFileHelpers: InternalPromptForCheckoutAndSave took 414 ms (total: 7.05 sec)
+[2023.11.24-20.02.34:050][599]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.11.24-20.02.34:050][599]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.11.24-20.02.34:434][644]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.11.24-20.02.34:640][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.11.24-20.03.37:149][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.03.37:300][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-20.03.37:510][ 57]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-20.03.37:512][ 57]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board14D515B2479438BD81050A9182037383.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-20.03.37:526][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 376 ms (total: 7.43 sec)
+[2023.11.24-20.03.37:527][ 57]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-20.03.37:527][ 57]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-20.03.38:481][164]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-20.03.38:547][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.11.24-20.05.07:624][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.05.07:736][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-20.05.07:952][952]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-20.05.07:954][952]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board51DC56E243EE99C4061EC18FE387CF11.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-20.05.07:966][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 342 ms (total: 7.77 sec)
+[2023.11.24-20.05.07:967][952]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-20.05.07:967][952]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-20.05.09:401][113]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-20.05.09:468][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.11.24-20.06.38:975][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.06.39:110][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.11.24-20.06.39:376][195]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.11.24-20.06.39:378][195]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquare15215364467D1335E9D0CF9C1AD814B0.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.11.24-20.06.39:390][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 415 ms (total: 8.19 sec)
+[2023.11.24-20.06.39:391][195]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.11.24-20.06.39:391][195]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.11.24-20.06.40:643][335]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.11.24-20.06.40:843][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.24-20.08.05:784][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.08.05:920][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-20.08.06:137][ 98]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-20.08.06:138][ 98]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board13F19D9B4789488AF3D9D2856F8A2030.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-20.08.06:150][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave took 366 ms (total: 8.55 sec)
+[2023.11.24-20.08.06:152][ 98]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-20.08.06:152][ 98]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-20.08.07:018][197]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-20.08.07:094][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.11.24-20.08.53:766][752]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.11.24-20.08.53:766][752]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.11.24-20.09.47:690][657]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.09.47:690][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-20.09.49:200][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.24-20.09.49:200][736]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.09.49:200][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-20.09.52:465][935]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.11.24-20.10.02:832][532]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-20.10.02:832][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.24-20.10.02:832][532]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-20.10.42:842][369]BlueprintLog: New page: Compile BP_Board
+[2023.11.24-20.10.42:913][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.11.24-20.10.43:909][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.10.44:045][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.11.24-20.10.44:266][473]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.11.24-20.10.44:268][473]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardC513A44F4526ED71E1CA30908E5241CE.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.11.24-20.10.44:278][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 369 ms (total: 8.92 sec)
+[2023.11.24-20.10.44:279][473]AssetCheck: New page: Asset Save: BP_Board
+[2023.11.24-20.10.44:280][473]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.11.24-20.10.58:329][ 25]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.10.58:329][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-20.11.02:991][310]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.11.02:992][310]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.24-20.11.02:992][310]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.24-20.11.08:170][877]LogViewport: Scene viewport resized to 469x641, mode Windowed.
+[2023.11.24-20.12.49:061][351]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.12.49:151][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.11.24-20.12.49:479][351]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.11.24-20.12.49:481][351]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode23A1E03C4055A19A0F33808BE3815DD3.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.11.24-20.12.49:494][351]LogFileHelpers: InternalPromptForCheckoutAndSave took 433 ms (total: 9.36 sec)
+[2023.11.24-20.12.49:496][351]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.11.24-20.12.49:496][351]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.12.50:137][418]BlueprintLog: New page: Compile BP_Gamemode
+[2023.11.24-20.12.50:214][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.11.24-20.13.05:370][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.13.05:441][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.11.24-20.13.05:733][128]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.11.24-20.13.05:735][128]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode4B8E070D4D433D6DDA897199F5C9F469.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.11.24-20.13.05:746][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 376 ms (total: 9.73 sec)
+[2023.11.24-20.13.05:747][128]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.11.24-20.13.05:747][128]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.13.06:483][216]BlueprintLog: New page: Compile BP_Gamemode
+[2023.11.24-20.13.06:551][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.24-20.13.17:608][503]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.13.17:687][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.11.24-20.13.17:971][503]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.11.24-20.13.17:972][503]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode31EB023449FF7EE6F88D94A7E5509261.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.11.24-20.13.17:987][503]LogFileHelpers: InternalPromptForCheckoutAndSave took 379 ms (total: 10.1 sec)
+[2023.11.24-20.13.17:988][503]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.11.24-20.13.17:988][503]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.14.01:660][485]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.14.01:749][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.11.24-20.14.02:039][485]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.11.24-20.14.02:041][485]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode08EA182748CF73FAF14E77875F2C2F74.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.11.24-20.14.02:052][485]LogFileHelpers: InternalPromptForCheckoutAndSave took 392 ms (total: 10.5 sec)
+[2023.11.24-20.14.02:054][485]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.11.24-20.14.02:054][485]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.14.02:631][552]BlueprintLog: New page: Compile BP_Gamemode
+[2023.11.24-20.14.02:703][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.11.24-20.15.04:338][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.15.04:435][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.11.24-20.15.04:733][752]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.11.24-20.15.04:735][752]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_GamemodeEB74F69048543C23245786A31574C57A.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.11.24-20.15.04:747][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 409 ms (total: 10.9 sec)
+[2023.11.24-20.15.04:748][752]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.11.24-20.15.04:748][752]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.15.05:443][834]BlueprintLog: New page: Compile BP_Gamemode
+[2023.11.24-20.15.05:515][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.11.24-20.15.42:058][965]BlueprintLog: New page: Compile BP_Gamemode
+[2023.11.24-20.15.42:132][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.24-20.15.42:920][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.15.43:018][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.11.24-20.15.43:324][ 49]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.11.24-20.15.43:326][ 49]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode2B6E405F442BBD9991400C820A69C024.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.11.24-20.15.43:337][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave took 416 ms (total: 11.3 sec)
+[2023.11.24-20.15.43:339][ 49]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.11.24-20.15.43:339][ 49]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.17.09:664][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.24-20.17.09:744][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.11.24-20.17.10:078][125]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.11.24-20.17.10:080][125]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode3BE5E064430A92A5D1F370BCC5884567.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.11.24-20.17.10:092][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 428 ms (total: 11.7 sec)
+[2023.11.24-20.17.10:093][125]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.11.24-20.17.10:093][125]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.11.24-20.17.10:925][223]BlueprintLog: New page: Compile BP_Gamemode
+[2023.11.24-20.17.11:003][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.11.24-20.18.58:065][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.11.24-20.18.58:070][550]LogStall: Shutdown...
+[2023.11.24-20.18.58:075][550]LogStall: Shutdown complete.
+[2023.11.24-20.18.58:137][550]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.18.58:138][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-20.18.58:236][550]LogSlate: Window 'Divinum - Unreal Editor' being destroyed
+[2023.11.24-20.18.58:340][551]Cmd: QUIT_EDITOR
+[2023.11.24-20.18.58:341][551]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.11.24-20.18.58:353][551]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.11.24-20.18.58:353][551]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.11.24-20.18.58:353][551]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.11.24-20.18.58:356][551]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.18.58:356][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.24-20.18.58:376][551]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.11.24-20.18.58:429][551]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.11.24-20.18.58:429][551]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.11.24-20.18.58:429][551]LogAudio: Display: Audio Device unregistered from world 'TestMap'.
+[2023.11.24-20.18.58:429][551]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.11.24-20.18.58:429][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.24-20.18.58:431][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.24-20.18.58:537][551]LogAudio: Display: Audio Device Manager Shutdown
+[2023.11.24-20.18.58:538][551]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.11.24-20.18.58:553][551]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.11.24-20.18.58:553][551]LogExit: Preparing to exit.
+[2023.11.24-20.18.58:581][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:587][551]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.24-20.18.58:805][551]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.18.58:807][551]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.18.58:810][551]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.11.24-20.18.58:951][551]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.11.24-20.18.58:981][551]LogExit: Editor shut down
+[2023.11.24-20.18.58:982][551]LogExit: Transaction tracking system shut down
+[2023.11.24-20.18.59:148][551]LogExit: Object subsystem successfully closed.
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: ================================================
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: RAM used: 240.00 B of 1.60 GiB budget. Usage: 0.00%
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.24-20.18.59:153][551]LogShaderCompilers: Display: ================================================
+[2023.11.24-20.18.59:154][551]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.11.24-20.18.59:170][551]LogVirtualization: UE::Virtualization was shutdown
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1050)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module AddContentDialog (1048)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1047)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1044)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module SceneOutliner (1042)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module StatusBar (1040)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1038)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1036)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module StatsViewer (1034)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1032)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module AutomationWorker (1030)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module SmartSnapping (1028)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module TextureAlignMode (1026)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module BspMode (1024)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module GeometryMode (1022)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (1020)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1018)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1016)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1014)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1012)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module WebMMedia (1010)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (1008)
+[2023.11.24-20.18.59:199][551]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1006)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module SequenceRecorder (1005)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (1002)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (1000)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (998)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (996)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (994)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (992)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (990)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (988)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (986)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (984)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (982)
+[2023.11.24-20.18.59:200][551]LogModuleManager: Shutting down and abandoning module IKRigEditor (980)
+[2023.11.24-20.18.59:201][551]LogModuleManager: Shutting down and abandoning module ControlRigEditor (978)
+[2023.11.24-20.18.59:203][551]LogModuleManager: Shutting down and abandoning module PlanarCut (976)
+[2023.11.24-20.18.59:203][551]LogModuleManager: Shutting down and abandoning module FractureEngine (974)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module CharacterAI (972)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module WaveTableEditor (970)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module RigVMEditor (968)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (966)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module GooglePADEditor (964)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (962)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (960)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module SessionServices (958)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module MeshPaint (956)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (954)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module PlacementMode (953)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module FoliageEdit (950)
+[2023.11.24-20.18.59:204][551]LogModuleManager: Shutting down and abandoning module LandscapeEditor (948)
+[2023.11.24-20.18.59:206][551]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (946)
+[2023.11.24-20.18.59:206][551]LogModuleManager: Shutting down and abandoning module ActorPickerMode (944)
+[2023.11.24-20.18.59:206][551]LogModuleManager: Shutting down and abandoning module ViewportSnapping (942)
+[2023.11.24-20.18.59:206][551]LogModuleManager: Shutting down and abandoning module EditorWidgets (940)
+[2023.11.24-20.18.59:206][551]LogModuleManager: Shutting down and abandoning module ViewportInteraction (938)
+[2023.11.24-20.18.59:206][551]LogModuleManager: Shutting down and abandoning module ClothPainter (936)
+[2023.11.24-20.18.59:206][551]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (935)
+[2023.11.24-20.18.59:207][551]LogModuleManager: Shutting down and abandoning module WidgetRegistration (932)
+[2023.11.24-20.18.59:207][551]LogModuleManager: Shutting down and abandoning module LogVisualizer (930)
+[2023.11.24-20.18.59:207][551]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (928)
+[2023.11.24-20.18.59:207][551]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (926)
+[2023.11.24-20.18.59:207][551]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (925)
+[2023.11.24-20.18.59:207][551]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (923)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (920)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (918)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (916)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (914)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (912)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (910)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module AnimationSettings (908)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (906)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module CSVtoSVG (904)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (902)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module EditorConfig (900)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module EditorFramework (898)
+[2023.11.24-20.18.59:833][551]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (896)
+[2023.11.24-20.18.59:836][551]LogModuleManager: Shutting down and abandoning module TraceInsights (894)
+[2023.11.24-20.18.59:838][551]MemoryProfiler: Shutdown
+[2023.11.24-20.18.59:840][551]NetworkingProfiler: Shutdown
+[2023.11.24-20.18.59:840][551]LoadingProfiler: Shutdown
+[2023.11.24-20.18.59:840][551]TimingProfiler: Shutdown
+[2023.11.24-20.18.59:840][551]LogModuleManager: Shutting down and abandoning module TraceServices (893)
+[2023.11.24-20.18.59:842][551]LogModuleManager: Shutting down and abandoning module TraceAnalysis (892)
+[2023.11.24-20.18.59:842][551]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (888)
+[2023.11.24-20.18.59:842][551]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (887)
+[2023.11.24-20.18.59:842][551]LogModuleManager: Shutting down and abandoning module InputBindingEditor (884)
+[2023.11.24-20.18.59:842][551]LogModuleManager: Shutting down and abandoning module MergeActors (882)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (880)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module LocalizationService (879)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module HardwareTargeting (876)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (874)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module UndoHistory (872)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module XmlParser (870)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module Blutility (868)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (866)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (865)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (862)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (861)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module SettingsEditor (858)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module ProjectLauncher (856)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module SessionFrontend (854)
+[2023.11.24-20.18.59:843][551]LogModuleManager: Shutting down and abandoning module ProfilerClient (852)
+[2023.11.24-20.18.59:844][551]LogModuleManager: Shutting down and abandoning module DeviceManager (850)
+[2023.11.24-20.18.59:844][551]LogModuleManager: Shutting down and abandoning module AutomationController (848)
+[2023.11.24-20.18.59:844][551]LogModuleManager: Shutting down and abandoning module AutomationWindow (846)
+[2023.11.24-20.18.59:845][551]LogModuleManager: Shutting down and abandoning module Layers (844)
+[2023.11.24-20.18.59:846][551]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (842)
+[2023.11.24-20.18.59:846][551]LogModuleManager: Shutting down and abandoning module DetailCustomizations (840)
+[2023.11.24-20.18.59:846][551]LogModuleManager: Shutting down and abandoning module PackagesDialog (838)
+[2023.11.24-20.18.59:846][551]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (836)
+[2023.11.24-20.18.59:846][551]LogModuleManager: Shutting down and abandoning module Persona (834)
+[2023.11.24-20.18.59:847][551]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (833)
+[2023.11.24-20.18.59:847][551]LogModuleManager: Shutting down and abandoning module Kismet (830)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module KismetWidgets (829)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module GraphEditor (826)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module StructViewer (824)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module ClassViewer (822)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (820)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (818)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module SourceControlWindows (816)
+[2023.11.24-20.18.59:857][551]LogModuleManager: Shutting down and abandoning module OutputLog (814)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module Documentation (812)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (810)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (808)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module MovieScene (806)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (804)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (802)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (800)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module AudioMixer (799)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module AudioMixerCore (798)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module LauncherPlatform (794)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module AnalyticsET (792)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module PortalServices (790)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module PortalRpc (788)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module MessagingRpc (786)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module AIModule (784)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module GameplayDebugger (783)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module AITestSuite (781)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module NavigationSystem (779)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (776)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (774)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module TypedElementFramework (772)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (770)
+[2023.11.24-20.18.59:858][551]LogModuleManager: Shutting down and abandoning module ProfilerService (768)
+[2023.11.24-20.18.59:908][551]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (766)
+[2023.11.24-20.18.59:909][551]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (764)
+[2023.11.24-20.18.59:909][551]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (762)
+[2023.11.24-20.18.59:909][551]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (760)
+[2023.11.24-20.18.59:909][551]LogModuleManager: Shutting down and abandoning module TakesCore (758)
+[2023.11.24-20.18.59:909][551]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (756)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module MegascansPlugin (754)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module Bridge (752)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (750)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module LightMixer (748)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (746)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (744)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (742)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (740)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module CollectionManager (739)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (736)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (734)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module Paper2DEditor (732)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (730)
+[2023.11.24-20.18.59:910][551]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (728)
+[2023.11.24-20.18.59:911][551]LogModuleManager: Shutting down and abandoning module UVEditorTools (726)
+[2023.11.24-20.18.59:911][551]LogModuleManager: Shutting down and abandoning module UVEditor (724)
+[2023.11.24-20.18.59:912][551]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (722)
+[2023.11.24-20.18.59:912][551]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (720)
+[2023.11.24-20.18.59:912][551]LogModuleManager: Shutting down and abandoning module PluginBrowser (718)
+[2023.11.24-20.18.59:912][551]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (716)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (714)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (712)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (710)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module EditorDebugTools (708)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module CurveEditorTools (706)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (704)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module CryptoKeys (702)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (700)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module ChangelistReview (698)
+[2023.11.24-20.18.59:913][551]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (696)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module MediaPlate (694)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module MediaCompositing (692)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module ImgMedia (690)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (688)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (686)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module UObjectPlugin (684)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (682)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (680)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module PluginUtils (678)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module GitSourceControl (676)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (674)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module DumpGPUServices (672)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (670)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (668)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (666)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module InterchangeTests (664)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module AlembicImporter (662)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module AlembicLibrary (661)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (658)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module TakeSequencer (656)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module TakeMovieScene (654)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (650)
+[2023.11.24-20.18.59:914][551]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (648)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module InterchangeEditor (646)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (644)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (642)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (640)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module InterchangeExport (638)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module InterchangeMessages (636)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module GLTFCore (634)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module TemplateSequence (632)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (630)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module SequencerScripting (628)
+[2023.11.24-20.18.59:915][551]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (626)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module ControlRigSpline (624)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (622)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (620)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (618)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (616)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (614)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (612)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (610)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (608)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (606)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (604)
+[2023.11.24-20.18.59:916][551]LogOpenImageDenoise: OIDN shutting down
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (602)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (600)
+[2023.11.24-20.18.59:916][551]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (598)
+[2023.11.24-20.18.59:917][551]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (596)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (594)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module MeshLODToolset (592)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (590)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module LocalizableMessage (588)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (586)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (584)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (582)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (580)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (578)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (577)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (575)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (572)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module DataflowNodes (570)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (568)
+[2023.11.24-20.18.59:918][551]LogModuleManager: Shutting down and abandoning module DataflowEditor (566)
+[2023.11.24-20.18.59:919][551]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (564)
+[2023.11.24-20.18.59:919][551]LogModuleManager: Shutting down and abandoning module ChaosNiagara (562)
+[2023.11.24-20.18.59:919][551]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (560)
+[2023.11.24-20.18.59:919][551]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (558)
+[2023.11.24-20.18.59:919][551]LogModuleManager: Shutting down and abandoning module FractureEditor (556)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module BackChannel (554)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (552)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module AutomationUtils (550)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module SynthesisEditor (548)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module ResonanceAudio (546)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (544)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (542)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (540)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module ModelingOperators (538)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (536)
+[2023.11.24-20.18.59:920][551]LogModuleManager: Shutting down and abandoning module ModelingComponents (534)
+[2023.11.24-20.18.59:921][551]LogModuleManager: Shutting down and abandoning module GeometryFramework (533)
+[2023.11.24-20.18.59:921][551]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (530)
+[2023.11.24-20.18.59:921][551]LogModuleManager: Shutting down and abandoning module MeshModelingTools (528)
+[2023.11.24-20.18.59:921][551]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (526)
+[2023.11.24-20.18.59:921][551]LogModuleManager: Shutting down and abandoning module InputDebugging (524)
+[2023.11.24-20.18.59:921][551]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2023.11.24-20.18.59:921][551]LogModuleManager: Shutting down and abandoning module DynamicMesh (520)
+[2023.11.24-20.18.59:922][551]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (518)
+[2023.11.24-20.18.59:922][551]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (516)
+[2023.11.24-20.18.59:922][551]LogModuleManager: Shutting down and abandoning module GeometryCache (514)
+[2023.11.24-20.18.59:922][551]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (512)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (510)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (508)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module AudioCapture (506)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (505)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (502)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module AssetTags (500)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (498)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module AppleImageUtils (496)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module AndroidPermission (494)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (492)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (490)
+[2023.11.24-20.18.59:923][551]LogModuleManager: Shutting down and abandoning module VariantManager (488)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (487)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (484)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (482)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module TraceUtilities (480)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (478)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (476)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module InputEditor (474)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (472)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module BlueprintGraph (471)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module Divinum (468)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module Paper2D (466)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (464)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module FacialAnimation (462)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (460)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module DataValidation (458)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (456)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module TreeMap (455)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (452)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (450)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (448)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module AnimationSharing (446)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module GameplayCameras (444)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module InterchangePipelines (442)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module InterchangeImport (440)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (438)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module InterchangeNodes (436)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module ActorSequence (434)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (432)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module Niagara (430)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module NiagaraEditor (429)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module ContentBrowser (428)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module ContentBrowserData (427)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module NiagaraCore (422)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (420)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module IKRig (418)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (416)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module ControlRig (414)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module Constraints (413)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module AnimationData (410)
+[2023.11.24-20.18.59:924][551]LogModuleManager: Shutting down and abandoning module UdpMessaging (408)
+[2023.11.24-20.19.00:025][551]LogModuleManager: Shutting down and abandoning module TcpMessaging (406)
+[2023.11.24-20.19.00:126][551]LogModuleManager: Shutting down and abandoning module StructUtils (404)
+[2023.11.24-20.19.00:126][551]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (402)
+[2023.11.24-20.19.00:126][551]LogModuleManager: Shutting down and abandoning module PBIK (400)
+[2023.11.24-20.19.00:126][551]LogModuleManager: Shutting down and abandoning module FullBodyIK (398)
+[2023.11.24-20.19.00:126][551]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (396)
+[2023.11.24-20.19.00:126][551]LogModuleManager: Shutting down and abandoning module TakeRecorder (395)
+[2023.11.24-20.19.00:126][551]LogModuleManager: Shutting down and abandoning module LevelEditor (393)
+[2023.11.24-20.19.00:129][551]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (392)
+[2023.11.24-20.19.00:129][551]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (390)
+[2023.11.24-20.19.00:129][551]LogModuleManager: Shutting down and abandoning module MainFrame (388)
+[2023.11.24-20.19.00:129][551]LogModuleManager: Shutting down and abandoning module HotReload (387)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module ChaosCaching (382)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module LevelSequence (381)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module Synthesis (378)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module SoundFields (376)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (374)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module RigVM (372)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module SignificanceManager (370)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (368)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (364)
+[2023.11.24-20.19.00:131][551]LogModuleManager: Shutting down and abandoning module MetasoundEditor (362)
+[2023.11.24-20.19.00:132][551]LogModuleManager: Shutting down and abandoning module ToolMenus (361)
+[2023.11.24-20.19.00:132][551]LogModuleManager: Shutting down and abandoning module AudioWidgets (359)
+[2023.11.24-20.19.00:132][551]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (358)
+[2023.11.24-20.19.00:132][551]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (354)
+[2023.11.24-20.19.00:132][551]LogModuleManager: Shutting down and abandoning module MetasoundEngine (352)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module WaveTable (351)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (349)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (346)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (344)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (342)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (340)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (338)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (332)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (331)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (328)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module SignalProcessing (327)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (324)
+[2023.11.24-20.19.00:133][551]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2023.11.24-20.19.00:134][551]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2023.11.24-20.19.00:135][551]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2023.11.24-20.19.00:135][551]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2023.11.24-20.19.00:135][551]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2023.11.24-20.19.00:135][551]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2023.11.24-20.19.00:135][551]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2023.11.24-20.19.00:136][551]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2023.11.24-20.19.00:137][551]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2023.11.24-20.19.00:137][551]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2023.11.24-20.19.00:138][551]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2023.11.24-20.19.00:147][551]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2023.11.24-20.19.00:147][551]LogModuleManager: Shutting down and abandoning module Core (244)
+[2023.11.24-20.19.00:147][551]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2023.11.24-20.19.00:147][551]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2023.11.24-20.19.00:147][551]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2023.11.24-20.19.00:148][551]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2023.11.24-20.19.00:149][551]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2023.11.24-20.19.00:149][551]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2023.11.24-20.19.00:149][551]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2023.11.24-20.19.00:150][551]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2023.11.24-20.19.00:151][551]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2023.11.24-20.19.00:152][551]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2023.11.24-20.19.00:152][551]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2023.11.24-20.19.00:163][551]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2023.11.24-20.19.00:163][551]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2023.11.24-20.19.00:163][551]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2023.11.24-20.19.00:163][551]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2023.11.24-20.19.00:166][551]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2023.11.24-20.19.00:166][551]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2023.11.24-20.19.00:166][551]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2023.11.24-20.19.00:167][551]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2023.11.24-20.19.00:168][551]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2023.11.24-20.19.00:169][551]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2023.11.24-20.19.00:169][551]LogModuleManager: Shutting down and abandoning module WmfMedia (122)
+[2023.11.24-20.19.00:173][551]LogModuleManager: Shutting down and abandoning module Media (121)
+[2023.11.24-20.19.00:174][551]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (118)
+[2023.11.24-20.19.00:175][551]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (116)
+[2023.11.24-20.19.00:175][551]RenderDocPlugin: plugin has been unloaded.
+[2023.11.24-20.19.00:175][551]LogModuleManager: Shutting down and abandoning module PixWinPlugin (114)
+[2023.11.24-20.19.00:175][551]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (112)
+[2023.11.24-20.19.00:175][551]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (110)
+[2023.11.24-20.19.00:175][551]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (108)
+[2023.11.24-20.19.00:177][551]LogModuleManager: Shutting down and abandoning module XMPP (103)
+[2023.11.24-20.19.00:177][551]LogModuleManager: Shutting down and abandoning module WebSockets (102)
+[2023.11.24-20.19.00:195][551]LogModuleManager: Shutting down and abandoning module HTTP (99)
+[2023.11.24-20.19.00:195][551]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2023.11.24-20.19.00:195][551]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A7F5B9B-471F-BA37-5976-298444C6B228%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=e6b0512b4aa05463abe18a9914433e66%7C964a325d830d45c49781ff04b0cebdaa%7C3f10feb5-9724-469e-8900-031f27d3939b&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.11.24-20.19.00:211][551]LogModuleManager: Shutting down and abandoning module SSL (98)
+[2023.11.24-20.19.00:212][551]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (94)
+[2023.11.24-20.19.00:212][551]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (92)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (90)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (88)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module NiagaraShader (86)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module ACLPlugin (84)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module ChaosCloth (80)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (78)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2023.11.24-20.19.00:213][551]LogModuleManager: Shutting down and abandoning module ChunkDownloader (74)
+[2023.11.24-20.19.00:214][551]LogModuleManager: Shutting down and abandoning module VariantManagerContent (72)
+[2023.11.24-20.19.00:214][551]LogModuleManager: Shutting down and abandoning module GLTFExporter (70)
+[2023.11.24-20.19.00:214][551]LogModuleManager: Shutting down and abandoning module DatasmithContent (68)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module AISupportModule (66)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (62)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (60)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module SourceControl (59)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2023.11.24-20.19.00:216][551]LogXGEController: Cleaning working directory: C:/Users/blunte3/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.11.24-20.19.00:216][551]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2023.11.24-20.19.00:217][551]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2023.11.24-20.19.00:217][551]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2023.11.24-20.19.00:217][551]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2023.11.24-20.19.00:218][551]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2023.11.24-20.19.00:219][551]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2023.11.24-20.19.00:219][551]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2023.11.24-20.19.00:219][551]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2023.11.24-20.19.00:219][551]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2023.11.24-20.19.00:219][551]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.11.24-20.19.00:219][551]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.11.24-20.19.00:219][551]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.11.24-20.19.00:220][551]LogPakFile: Destroying PakPlatformFile
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.11.24-20.19.00:220][551]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.11.24-20.19.00:436][551]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.11.24-20.19.00:465][551]LogExit: Exiting.
+[2023.11.24-20.19.00:649][551]Log file closed, 11/24/23 15:19:00
+>>>>>>> Stashed changes
