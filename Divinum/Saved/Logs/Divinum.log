@@ -1953,3 +1953,221 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.04-19.37.08:273][793]LogHttp: Warning: 00000B22B2820500: libcurl info message cache 7 (Closing connection 0)
 [2023.12.04-19.37.08:273][793]LogHttp: Warning: 00000B22B2820500: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2023.12.04-19.37.08:273][793]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C42DEC1-40B1-E02E-FBAE-BB9E8A52E557%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=e6b0512b4aa05463abe18a9914433e66%7C964a325d830d45c49781ff04b0cebdaa%7C3f10feb5-9724-469e-8900-031f27d3939b&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.12.04-19.37.53:333][203]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-19.37.53:333][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-19.37.54:512][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.04-19.37.54:512][334]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-19.37.54:512][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-19.37.55:834][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.04-19.37.55:834][410]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-19.37.55:834][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-19.37.58:358][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.12.04-19.38.39:228][511]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.12.04-19.38.39:228][511]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-19.38.39:229][511]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-19.39.39:229][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.39.39:229][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-19.39.39:229][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-19.39.39:250][158]LogDerivedDataCache: C:/Users/blunte3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.098 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 676 files in 1215 folders with total size 71 MiB.
+[2023.12.04-19.39.48:076][147]LogViewport: Scene viewport resized to 472x686, mode Windowed.
+[2023.12.04-19.42.30:616][996]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.42.30:667][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.42.30:981][996]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.42.30:982][996]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode022D87CB4C6C14B934428FA4C6E87A57.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.42.30:994][996]LogFileHelpers: InternalPromptForCheckoutAndSave took 377 ms (total: 10.3 sec)
+[2023.12.04-19.42.30:995][996]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.42.30:995][996]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.42.31:487][ 53]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.42.31:568][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 0 (Found bundle for host: 0xb22141604e0 [serially])
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 1 (Re-using existing connection #1 with host datarouter.ol.epicgames.com)
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.239.214) port 443 (#1))
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 7 (Closing connection 1)
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: 00000B22A408C300: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.12.04-19.43.08:052][919]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C42DEC1-40B1-E02E-FBAE-BB9E8A52E557%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=e6b0512b4aa05463abe18a9914433e66%7C964a325d830d45c49781ff04b0cebdaa%7C3f10feb5-9724-469e-8900-031f27d3939b&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.12.04-19.44.42:480][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.44.42:534][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.44.42:879][226]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.44.42:881][226]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode35ECCF52447F404F1284D0854E5805EE.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.44.42:892][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 412 ms (total: 10.7 sec)
+[2023.12.04-19.44.42:894][226]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.44.42:894][226]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.44.43:412][288]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.44.43:496][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.12.04-19.45.24:289][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.45.24:333][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.45.24:854][ 21]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.45.24:856][ 21]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode47156A894C0C603D0166D6AF826F7086.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.45.24:866][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 576 ms (total: 11.3 sec)
+[2023.12.04-19.45.24:867][ 21]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.45.24:867][ 21]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.46.28:203][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.46.28:307][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.12.04-19.46.28:583][372]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.12.04-19.46.28:585][372]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardEAA536FF446E491302E31CBB2A189963.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.12.04-19.46.28:597][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 393 ms (total: 11.7 sec)
+[2023.12.04-19.46.28:598][372]AssetCheck: New page: Asset Save: BP_Board
+[2023.12.04-19.46.28:598][372]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.12.04-19.46.53:377][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.46.53:435][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.12.04-19.46.53:714][344]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.12.04-19.46.53:716][344]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board7DC68FFE454AAA2776144D957FCCDF25.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.12.04-19.46.53:727][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 350 ms (total: 12.0 sec)
+[2023.12.04-19.46.53:729][344]AssetCheck: New page: Asset Save: BP_Board
+[2023.12.04-19.46.53:729][344]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.12.04-19.46.59:060][983]BlueprintLog: New page: Compile BP_Board
+[2023.12.04-19.46.59:153][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.12.04-19.46.59:817][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.46.59:918][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.12.04-19.47.00:190][ 55]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.12.04-19.47.00:192][ 55]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board968601C441E06F52094557B7F5359603.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.12.04-19.47.00:203][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 386 ms (total: 12.4 sec)
+[2023.12.04-19.47.00:203][ 55]AssetCheck: New page: Asset Save: BP_Board
+[2023.12.04-19.47.00:203][ 55]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.12.04-19.47.12:302][427]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.47.12:351][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.47.12:681][427]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.47.12:682][427]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode3D8115DF4AF9710A25EF38B709EC2787.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.47.12:695][427]LogFileHelpers: InternalPromptForCheckoutAndSave took 392 ms (total: 12.8 sec)
+[2023.12.04-19.47.12:696][427]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.47.12:696][427]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.47.14:478][640]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.47.14:555][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.12.04-19.47.15:807][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.47.15:868][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.47.16:200][783]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.47.16:201][783]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode2EE4747B408B692B38A58D857715B29F.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.47.16:212][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 404 ms (total: 13.2 sec)
+[2023.12.04-19.47.16:214][783]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.47.16:214][783]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.47.58:807][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.47.58:903][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_Board" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset" SILENT=true
+[2023.12.04-19.47.59:188][764]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_Board
+[2023.12.04-19.47.59:190][764]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Board595C375842DED36483695E9ADCC29CB6.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_Board.uasset'
+[2023.12.04-19.47.59:201][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 393 ms (total: 13.6 sec)
+[2023.12.04-19.47.59:202][764]AssetCheck: New page: Asset Save: BP_Board
+[2023.12.04-19.47.59:202][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_Board.BP_Board
+[2023.12.04-19.47.59:687][821]BlueprintLog: New page: Compile BP_Board
+[2023.12.04-19.47.59:774][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.04-19.48.25:185][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.48.25:234][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.48.25:566][720]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.48.25:568][720]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_GamemodeD0D211F54974ADE4DB5C89B8366499E5.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.48.25:580][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 395 ms (total: 14.0 sec)
+[2023.12.04-19.48.25:581][720]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.48.25:581][720]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.48.25:944][762]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.48.26:023][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.12.04-19.49.37:300][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.49.37:368][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.49.37:703][870]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.49.37:704][870]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode037ADA50417ED29158D81693216A2266.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.49.37:718][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 417 ms (total: 14.4 sec)
+[2023.12.04-19.49.37:719][870]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.49.37:719][870]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.49.44:465][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.49.44:519][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.49.44:853][638]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.49.44:855][638]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode56C92C5542384D4607F994BBC64D2D61.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.49.44:866][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 401 ms (total: 14.8 sec)
+[2023.12.04-19.49.44:867][638]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.49.44:867][638]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.49.45:104][665]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.49.45:190][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.12.04-19.50.08:026][466]LogHttp: Warning: 00000B22B93E5A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 0 (Found bundle for host: 0xb2214160780 [serially])
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 1 (Re-using existing connection #2 with host datarouter.ol.epicgames.com)
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.216.212.149) port 443 (#2))
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 7 (Closing connection 2)
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: 00000B22B93E5A00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.12.04-19.50.08:027][466]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C42DEC1-40B1-E02E-FBAE-BB9E8A52E557%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=e6b0512b4aa05463abe18a9914433e66%7C964a325d830d45c49781ff04b0cebdaa%7C3f10feb5-9724-469e-8900-031f27d3939b&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.12.04-19.50.37:204][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.50.37:253][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.50.37:603][760]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.50.37:605][760]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode1EC92AE743F64341E9FC16A8DADD92F8.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.50.37:616][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 412 ms (total: 15.3 sec)
+[2023.12.04-19.50.37:618][760]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.50.37:618][760]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.50.38:012][806]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.50.38:098][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.12.04-19.52.23:116][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.52.23:169][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.52.23:562][346]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.52.23:564][346]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode4BDCAB824C9CDDE68F7FF082DCFCD6D6.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.52.23:576][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 460 ms (total: 15.7 sec)
+[2023.12.04-19.52.23:578][346]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.52.23:578][346]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.52.23:804][368]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.52.23:893][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.12.04-19.52.41:070][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.52.41:119][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.52.41:484][297]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.52.41:486][297]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode5D04589A460B8B57CAD2E0BF9313D9EA.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.52.41:498][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 427 ms (total: 16.1 sec)
+[2023.12.04-19.52.41:498][297]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.52.41:498][297]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.52.41:729][324]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.52.41:809][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 0 (Found bundle for host: 0xb2214160330 [serially])
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 1 (Re-using existing connection #3 with host datarouter.ol.epicgames.com)
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.218.137.70) port 443 (#3))
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 7 (Closing connection 3)
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: 00000B22B96E9100: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.12.04-19.53.08:162][396]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C42DEC1-40B1-E02E-FBAE-BB9E8A52E557%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=e6b0512b4aa05463abe18a9914433e66%7C964a325d830d45c49781ff04b0cebdaa%7C3f10feb5-9724-469e-8900-031f27d3939b&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.12.04-19.53.13:133][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.53.13:187][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.53.13:556][972]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.53.13:558][972]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_GamemodeDE7B760743D226F18439F58A432BA39C.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.53.13:570][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 436 ms (total: 16.6 sec)
+[2023.12.04-19.53.13:572][972]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.53.13:572][972]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.53.46:629][815]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.53.46:713][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.12.04-19.53.47:413][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.53.47:470][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.53.47:844][892]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.53.47:846][892]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode1D7E28C0433110569684CEABEA5089B6.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.53.47:858][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 445 ms (total: 17.0 sec)
+[2023.12.04-19.53.47:860][892]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.53.47:860][892]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.53.53:749][294]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-19.53.53:749][294]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-19.53.53:750][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-19.54.14:546][613]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-19.54.14:620][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.12.04-19.54.15:281][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.54.15:420][681]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-19.54.15:422][681]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPieceC051E89F438581F737425BAFCB099FA0.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-19.54.15:433][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 17.2 sec)
+[2023.12.04-19.54.15:434][681]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-19.54.15:434][681]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-19.54.37:411][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.54.37:470][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.54.37:850][174]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.54.37:852][174]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_GamemodeF68FD04644ACD10AA1134895F17CF5C4.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.54.37:864][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 452 ms (total: 17.6 sec)
+[2023.12.04-19.54.37:865][174]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.54.37:865][174]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.54.59:684][698]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-19.54.59:736][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-19.55.00:117][698]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-19.55.00:119][698]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode01DAE792475A3855FBB45BB7FB191F0E.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-19.55.00:131][698]LogFileHelpers: InternalPromptForCheckoutAndSave took 446 ms (total: 18.1 sec)
+[2023.12.04-19.55.00:132][698]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-19.55.00:132][698]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-19.55.01:155][820]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-19.55.01:240][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
