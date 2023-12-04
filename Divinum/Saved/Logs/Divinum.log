@@ -1189,3 +1189,635 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.04-18.45.09:309][126]AssetCheck: New page: Asset Save: BP_BoardSquare
 [2023.12.04-18.45.09:309][126]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
 [2023.12.04-18.45.27:723][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.12.04-18.47.15:292][736]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.04-18.47.15:316][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-18.47.15:319][736]PIE: New page: PIE session: TestMap (Dec 4, 2023, 8:47:15 AM)
+[2023.12.04-18.47.15:324][736]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.12.04-18.47.15:324][736]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2023.12.04-18.47.15:325][736]LogPlayLevel: Creating play world package: /Game/Divinum/Maps/UEDPIE_0_TestMap
+[2023.12.04-18.47.15:342][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017563s)
+[2023.12.04-18.47.15:342][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Divinum/Maps/TestMap.TestMap to /Game/Divinum/Maps/UEDPIE_0_TestMap.TestMap (0.017622s)
+[2023.12.04-18.47.15:358][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.12.04-18.47.15:360][736]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-18.47.15:360][736]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-18.47.15:360][736]LogAIModule: Creating AISystem for world TestMap
+[2023.12.04-18.47.15:361][736]LogPlayLevel: PIE: World Init took: (0.001422s)
+[2023.12.04-18.47.15:361][736]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.12.04-18.47.15:361][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-18.47.15:361][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-18.47.15:361][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-18.47.15:361][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-18.47.15:361][736]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-18.47.15:361][736]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-18.47.15:361][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-18.47.15:361][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-18.47.15:362][736]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-18.47.15:362][736]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-18.47.15:362][736]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-18.47.15:364][736]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-18.47.15:396][736]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (3- Realtek(R) Audio)
+[2023.12.04-18.47.15:396][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-18.47.15:396][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-18.47.15:396][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-18.47.15:398][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.12.04-18.47.15:398][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.12.04-18.47.15:400][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.12.04-18.47.15:400][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.12.04-18.47.15:400][736]LogInit: FAudioDevice initialized with ID 2.
+[2023.12.04-18.47.15:400][736]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestMap'.
+[2023.12.04-18.47.15:400][736]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.04-18.47.15:404][736]LogLoad: Game class is 'BP_Gamemode_C'
+[2023.12.04-18.47.15:412][736]LogWorld: Bringing World /Game/Divinum/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2023.12.04-13.47.15
+[2023.12.04-18.47.15:414][736]LogWorld: Bringing up level for play took: 0.009996
+[2023.12.04-18.47.15:416][736]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.12.04-18.47.15:436][736]PIE: Server logged in
+[2023.12.04-18.47.15:437][736]PIE: Play in editor total start time 0.122 seconds.
+[2023.12.04-18.47.16:042][743]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.12.04-18.47.23:918][143]LogViewport: Scene viewport resized to 1733x900, mode Windowed.
+[2023.12.04-18.47.28:722][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-18.47.28:723][339]LogWorld: BeginTearingDown for /Game/Divinum/Maps/UEDPIE_0_TestMap
+[2023.12.04-18.47.28:723][339]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-18.47.28:724][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-18.47.28:729][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-18.47.28:734][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-18.47.28:752][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-18.47.28:753][339]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.04-18.47.28:753][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.04-18.47.28:755][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.04-18.47.28:778][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.04-18.47.28:830][340]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.12.04-18.47.30:333][380]LogViewport: Scene viewport resized to 1148x529, mode Windowed.
+[2023.12.04-18.47.31:233][380]LogViewport: Scene viewport resized to 855x894, mode Windowed.
+[2023.12.04-18.48.04:232][ 90]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/installs/UE_5.3/FeaturePacks/StarterContent.upack)
+[2023.12.04-18.48.04:236][ 90]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2023.12.04-18.48.04:260][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2023.12.04-18.48.04:271][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2023.12.04-18.48.04:283][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2023.12.04-18.48.04:294][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2023.12.04-18.48.04:305][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2023.12.04-18.48.04:326][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Collapse01.uasset"
+[2023.12.04-18.48.04:338][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2023.12.04-18.48.04:355][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Collapse02.uasset"
+[2023.12.04-18.48.04:366][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2023.12.04-18.48.04:378][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2023.12.04-18.48.04:389][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2023.12.04-18.48.04:404][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Explosion01.uasset"
+[2023.12.04-18.48.04:414][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2023.12.04-18.48.04:428][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Explosion02.uasset"
+[2023.12.04-18.48.04:439][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2023.12.04-18.48.04:453][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Fire01.uasset"
+[2023.12.04-18.48.04:464][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2023.12.04-18.48.04:475][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2023.12.04-18.48.04:485][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2023.12.04-18.48.04:500][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2023.12.04-18.48.04:511][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2023.12.04-18.48.04:526][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Light01.uasset"
+[2023.12.04-18.48.04:537][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2023.12.04-18.48.04:550][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Light02.uasset"
+[2023.12.04-18.48.04:561][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2023.12.04-18.48.04:575][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Smoke01.uasset"
+[2023.12.04-18.48.04:587][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2023.12.04-18.48.04:598][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2023.12.04-18.48.04:623][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2023.12.04-18.48.04:676][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2023.12.04-18.48.04:688][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2023.12.04-18.48.04:713][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2023.12.04-18.48.04:736][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2023.12.04-18.48.04:752][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Steam01.uasset"
+[2023.12.04-18.48.04:764][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2023.12.04-18.48.05:146][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2023.12.04-18.48.05:166][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2023.12.04-18.48.05:185][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2023.12.04-18.48.05:197][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Maps/Minimal_Default.umap"
+[2023.12.04-18.48.05:220][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2023.12.04-18.48.05:235][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Maps/StarterMap.umap"
+[2023.12.04-18.48.05:351][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2023.12.04-18.48.05:371][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2023.12.04-18.48.05:385][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/P_Explosion.uasset"
+[2023.12.04-18.48.05:399][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/P_Fire.uasset"
+[2023.12.04-18.48.05:411][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/P_Smoke.uasset"
+[2023.12.04-18.48.05:424][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/P_Sparks.uasset"
+[2023.12.04-18.48.05:436][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2023.12.04-18.48.05:454][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/MaterialSphere.uasset"
+[2023.12.04-18.48.05:466][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Bush.uasset"
+[2023.12.04-18.48.05:478][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Chair.uasset"
+[2023.12.04-18.48.05:490][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2023.12.04-18.48.05:502][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Couch.uasset"
+[2023.12.04-18.48.05:513][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Door.uasset"
+[2023.12.04-18.48.05:526][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2023.12.04-18.48.05:538][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2023.12.04-18.48.05:551][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2023.12.04-18.48.05:562][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2023.12.04-18.48.05:574][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2023.12.04-18.48.05:586][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2023.12.04-18.48.05:598][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Rock.uasset"
+[2023.12.04-18.48.05:610][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Shelf.uasset"
+[2023.12.04-18.48.05:622][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Stairs.uasset"
+[2023.12.04-18.48.05:636][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_Statue.uasset"
+[2023.12.04-18.48.05:649][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_TableRound.uasset"
+[2023.12.04-18.48.05:661][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2023.12.04-18.48.05:678][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2023.12.04-18.48.05:690][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2023.12.04-18.48.05:702][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2023.12.04-18.48.05:714][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2023.12.04-18.48.05:726][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2023.12.04-18.48.05:739][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2023.12.04-18.48.05:750][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2023.12.04-18.48.05:761][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2023.12.04-18.48.05:773][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2023.12.04-18.48.05:785][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2023.12.04-18.48.05:796][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2023.12.04-18.48.05:808][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2023.12.04-18.48.05:820][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2023.12.04-18.48.05:832][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2023.12.04-18.48.05:844][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2023.12.04-18.48.05:856][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2023.12.04-18.48.05:868][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2023.12.04-18.48.05:879][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2023.12.04-18.48.05:890][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2023.12.04-18.48.05:909][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2023.12.04-18.48.05:921][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2023.12.04-18.48.05:932][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2023.12.04-18.48.05:944][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2023.12.04-18.48.05:956][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2023.12.04-18.48.05:968][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2023.12.04-18.48.05:979][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2023.12.04-18.48.05:994][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2023.12.04-18.48.06:011][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2023.12.04-18.48.06:023][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2023.12.04-18.48.06:034][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2023.12.04-18.48.06:045][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2023.12.04-18.48.06:057][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2023.12.04-18.48.06:069][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2023.12.04-18.48.06:080][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2023.12.04-18.48.06:092][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2023.12.04-18.48.06:104][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2023.12.04-18.48.06:116][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2023.12.04-18.48.06:127][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2023.12.04-18.48.06:139][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2023.12.04-18.48.06:150][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2023.12.04-18.48.06:162][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2023.12.04-18.48.06:175][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2023.12.04-18.48.06:188][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2023.12.04-18.48.06:200][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2023.12.04-18.48.06:212][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Glass.uasset"
+[2023.12.04-18.48.06:225][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2023.12.04-18.48.06:238][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2023.12.04-18.48.06:251][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2023.12.04-18.48.06:263][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2023.12.04-18.48.06:276][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2023.12.04-18.48.06:289][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2023.12.04-18.48.06:301][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2023.12.04-18.48.06:313][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2023.12.04-18.48.06:327][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2023.12.04-18.48.06:340][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2023.12.04-18.48.06:353][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2023.12.04-18.48.06:366][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2023.12.04-18.48.06:379][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2023.12.04-18.48.06:392][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2023.12.04-18.48.06:405][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2023.12.04-18.48.06:418][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2023.12.04-18.48.06:431][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2023.12.04-18.48.06:444][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2023.12.04-18.48.06:457][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2023.12.04-18.48.06:470][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2023.12.04-18.48.06:482][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2023.12.04-18.48.06:495][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2023.12.04-18.48.06:511][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2023.12.04-18.48.06:524][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2023.12.04-18.48.06:537][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2023.12.04-18.48.06:593][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2023.12.04-18.48.06:648][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2023.12.04-18.48.06:698][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2023.12.04-18.48.06:741][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2023.12.04-18.48.06:798][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2023.12.04-18.48.06:849][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2023.12.04-18.48.06:918][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2023.12.04-18.48.06:968][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2023.12.04-18.48.07:049][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2023.12.04-18.48.07:096][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2023.12.04-18.48.07:146][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2023.12.04-18.48.07:193][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2023.12.04-18.48.07:250][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2023.12.04-18.48.07:262][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2023.12.04-18.48.07:278][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2023.12.04-18.48.07:293][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2023.12.04-18.48.07:308][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2023.12.04-18.48.07:322][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2023.12.04-18.48.07:338][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2023.12.04-18.48.07:359][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2023.12.04-18.48.07:372][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2023.12.04-18.48.07:442][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2023.12.04-18.48.07:462][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2023.12.04-18.48.07:534][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2023.12.04-18.48.07:560][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2023.12.04-18.48.07:586][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2023.12.04-18.48.07:631][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2023.12.04-18.48.07:673][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2023.12.04-18.48.07:729][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2023.12.04-18.48.07:797][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2023.12.04-18.48.07:853][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2023.12.04-18.48.07:898][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2023.12.04-18.48.07:970][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2023.12.04-18.48.08:021][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2023.12.04-18.48.08:060][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2023.12.04-18.48.08:102][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2023.12.04-18.48.08:149][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2023.12.04-18.48.08:161][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2023.12.04-18.48.08:189][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2023.12.04-18.48.08:206][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Door_M.uasset"
+[2023.12.04-18.48.08:224][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Door_N.uasset"
+[2023.12.04-18.48.08:236][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2023.12.04-18.48.08:264][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2023.12.04-18.48.08:282][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2023.12.04-18.48.08:305][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2023.12.04-18.48.08:324][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2023.12.04-18.48.08:344][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2023.12.04-18.48.08:359][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2023.12.04-18.48.08:429][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2023.12.04-18.48.08:498][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2023.12.04-18.48.08:563][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2023.12.04-18.48.08:611][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2023.12.04-18.48.08:690][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2023.12.04-18.48.08:743][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2023.12.04-18.48.08:760][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2023.12.04-18.48.08:782][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2023.12.04-18.48.08:847][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2023.12.04-18.48.08:907][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2023.12.04-18.48.08:963][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2023.12.04-18.48.09:020][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2023.12.04-18.48.09:047][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2023.12.04-18.48.09:106][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2023.12.04-18.48.09:157][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2023.12.04-18.48.09:190][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2023.12.04-18.48.09:226][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2023.12.04-18.48.09:279][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2023.12.04-18.48.09:339][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2023.12.04-18.48.09:395][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2023.12.04-18.48.09:433][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2023.12.04-18.48.09:491][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2023.12.04-18.48.09:544][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2023.12.04-18.48.09:617][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2023.12.04-18.48.09:677][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2023.12.04-18.48.09:733][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2023.12.04-18.48.09:759][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2023.12.04-18.48.09:799][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2023.12.04-18.48.09:814][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2023.12.04-18.48.09:836][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2023.12.04-18.48.09:847][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2023.12.04-18.48.09:872][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2023.12.04-18.48.09:885][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2023.12.04-18.48.09:897][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2023.12.04-18.48.09:912][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2023.12.04-18.48.09:928][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2023.12.04-18.48.09:944][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2023.12.04-18.48.09:964][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2023.12.04-18.48.09:976][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2023.12.04-18.48.09:988][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2023.12.04-18.48.10:004][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2023.12.04-18.48.10:019][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2023.12.04-18.48.10:035][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2023.12.04-18.48.10:056][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2023.12.04-18.48.10:076][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Water_M.uasset"
+[2023.12.04-18.48.10:099][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Water_N.uasset"
+[2023.12.04-18.48.10:133][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2023.12.04-18.48.10:165][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2023.12.04-18.48.10:192][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2023.12.04-18.48.10:237][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2023.12.04-18.48.10:280][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2023.12.04-18.48.10:343][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2023.12.04-18.48.10:374][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2023.12.04-18.48.10:420][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2023.12.04-18.48.10:453][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2023.12.04-18.48.10:472][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2023.12.04-18.48.10:483][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2023.12.04-18.48.10:495][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2023.12.04-18.48.10:507][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2023.12.04-18.48.10:520][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2023.12.04-18.48.10:531][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2023.12.04-18.48.10:543][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2023.12.04-18.48.10:561][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2023.12.04-18.48.10:573][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2023.12.04-18.48.10:584][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2023.12.04-18.48.10:596][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2023.12.04-18.48.10:608][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2023.12.04-18.48.10:620][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2023.12.04-18.48.10:631][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2023.12.04-18.48.10:644][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2023.12.04-18.48.10:656][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2023.12.04-18.48.10:667][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2023.12.04-18.48.10:679][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2023.12.04-18.48.10:690][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2023.12.04-18.48.10:702][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2023.12.04-18.48.10:719][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2023.12.04-18.48.10:731][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2023.12.04-18.48.10:743][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2023.12.04-18.48.10:756][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2023.12.04-18.48.10:767][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2023.12.04-18.48.10:781][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2023.12.04-18.48.10:793][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2023.12.04-18.48.10:805][ 90]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2023.12.04-18.48.10:813][ 90]LogStaticMesh: Display: Building static mesh Floor_400x400...
+[2023.12.04-18.48.10:820][ 90]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2023.12.04-18.48.10:900][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-18.48.10:943][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-18.48.11:018][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2023.12.04-18.48.11:058][ 90]LogSavePackage: Moving output files for package: /Game/StarterContent/Architecture/Floor_400x400
+[2023.12.04-18.48.11:078][ 90]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/Floor_400x400F42B01C0474C9AD49AB0CD86F54FBAC0.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2023.12.04-18.48.11:131][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 230 ms (total: 2.58 sec)
+[2023.12.04-18.48.11:162][ 90]AssetCheck: New page: Asset Save: Floor_400x400
+[2023.12.04-18.48.11:162][ 90]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: ================================================
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Total job queries 33, among them cache hits 10 (30.30%)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Tracking 20 distinct input hashes that result in 16 distinct outputs (80.00%)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: RAM used: 452.04 KiB of 1.60 GiB budget. Usage: 0.03%
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Jobs assigned 7, completed 4 (57.14%)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Average time worker was idle: 342.02 s
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Job execution time: average 0.88 s, max 1.27 s
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 1.37
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Shader code size: average 58.966 KiB, min 29.77 KiB, max 71.035 KiB
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.57 s
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Average processing rate: 1.56 jobs/sec
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Total thread time: 1.029 s
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Total thread preprocess time: 0.115 s
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Percentage time preprocessing: 11.21%
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Effective parallelization: 0.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 33.59% of total time (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.05% of total time (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 22.56% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 15.79% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2023.12.04-18.48.11:772][107]LogShaderCompilers: Display: ================================================
+[2023.12.04-18.48.16:893][363]LogSlate: Window 'Content Browser' being destroyed
+[2023.12.04-18.48.16:899][363]LogSlate: Window 'Content Browser' being destroyed
+[2023.12.04-18.48.18:367][441]LogSlate: Window 'Add Content to the Project' being destroyed
+[2023.12.04-18.50.23:425][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.23:425][572]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.23:425][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.23:425][572]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.23:425][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.23:426][572]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.23:426][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.23:426][572]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.23:532][572]LogPackageName: SearchForPackageOnDisk took   0.107s, but failed to resolve JW_FlameDungeon.
+[2023.12.04-18.50.23:532][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2023.12.04-18.50.23:536][572]LogPackageName: SearchForPackageOnDisk took   0.111s, but failed to resolve JW_FlameDungeon.
+[2023.12.04-18.50.23:536][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2023.12.04-18.50.23:536][572]LogPackageName: SearchForPackageOnDisk took   0.110s, but failed to resolve JW_FlameDungeon.
+[2023.12.04-18.50.23:536][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2023.12.04-18.50.23:537][572]LogPackageName: SearchForPackageOnDisk took   0.111s, but failed to resolve JW_FlameDungeon.
+[2023.12.04-18.50.23:537][572]LogPackageName: Warning: Asset path "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2023.12.04-18.50.27:092][583]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:092][583]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:124][583]LogPackageName: SearchForPackageOnDisk took   0.031s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2023.12.04-18.50.27:124][583]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2023.12.04-18.50.27:124][583]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:124][583]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:157][583]LogPackageName: SearchForPackageOnDisk took   0.032s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2023.12.04-18.50.27:157][583]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2023.12.04-18.50.27:427][584]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:427][584]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:461][584]LogPackageName: SearchForPackageOnDisk took   0.034s, but failed to resolve JW_Ice_Mountain.
+[2023.12.04-18.50.27:461][584]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2023.12.04-18.50.27:462][584]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:462][584]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:496][584]LogPackageName: SearchForPackageOnDisk took   0.035s, but failed to resolve JW_Ice_Mountain.
+[2023.12.04-18.50.27:496][584]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2023.12.04-18.50.27:759][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:759][585]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:759][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:759][585]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:811][585]LogPackageName: SearchForPackageOnDisk took   0.052s, but failed to resolve FX_Meshes.
+[2023.12.04-18.50.27:811][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2023.12.04-18.50.27:811][585]LogPackageName: SearchForPackageOnDisk took   0.051s, but failed to resolve FX_Meshes.
+[2023.12.04-18.50.27:811][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2023.12.04-18.50.27:811][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:812][585]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:812][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.27:812][585]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.27:869][585]LogPackageName: SearchForPackageOnDisk took   0.058s, but failed to resolve FX_Meshes.
+[2023.12.04-18.50.27:869][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2023.12.04-18.50.27:869][585]LogPackageName: SearchForPackageOnDisk took   0.058s, but failed to resolve FX_Meshes.
+[2023.12.04-18.50.27:869][585]LogPackageName: Warning: Asset path "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2023.12.04-18.50.28:094][586]LogPackageName: Warning: Asset path "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:094][586]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:094][586]LogPackageName: Warning: Asset path "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:094][586]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:146][586]LogPackageName: SearchForPackageOnDisk took   0.052s, but failed to resolve CastleEffects.
+[2023.12.04-18.50.28:146][586]LogPackageName: Warning: Asset path "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2023.12.04-18.50.28:149][586]LogPackageName: SearchForPackageOnDisk took   0.055s, but failed to resolve 'FX_Ambient.
+[2023.12.04-18.50.28:149][586]LogPackageName: Warning: Asset path "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2023.12.04-18.50.28:150][586]LogPackageName: Warning: Asset path "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:150][586]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:150][586]LogPackageName: Warning: Asset path "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:150][586]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:206][586]LogPackageName: SearchForPackageOnDisk took   0.056s, but failed to resolve 'FX_Ambient.
+[2023.12.04-18.50.28:206][586]LogPackageName: Warning: Asset path "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2023.12.04-18.50.28:206][586]LogPackageName: SearchForPackageOnDisk took   0.056s, but failed to resolve CastleEffects.
+[2023.12.04-18.50.28:206][586]LogPackageName: Warning: Asset path "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2023.12.04-18.50.28:761][588]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:761][588]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:761][588]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:761][588]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:813][588]LogPackageName: SearchForPackageOnDisk took   0.052s, but failed to resolve StaticMesh'FX_Meshes.
+[2023.12.04-18.50.28:813][588]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2023.12.04-18.50.28:814][588]LogPackageName: SearchForPackageOnDisk took   0.053s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.28:814][588]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.28:815][588]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:815][588]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:815][588]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.28:815][588]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.28:867][588]LogPackageName: SearchForPackageOnDisk took   0.052s, but failed to resolve StaticMesh'FX_Meshes.
+[2023.12.04-18.50.28:867][588]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2023.12.04-18.50.28:868][588]LogPackageName: SearchForPackageOnDisk took   0.053s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.28:868][588]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.29:430][590]LogPackageName: Warning: Asset path "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.29:430][590]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.29:461][590]LogPackageName: SearchForPackageOnDisk took   0.031s, but failed to resolve FX_Test_LAN.
+[2023.12.04-18.50.29:461][590]LogPackageName: Warning: Asset path "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2023.12.04-18.50.29:462][590]LogPackageName: Warning: Asset path "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.29:462][590]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.29:489][590]LogPackageName: SearchForPackageOnDisk took   0.028s, but failed to resolve FX_Test_LAN.
+[2023.12.04-18.50.29:489][590]LogPackageName: Warning: Asset path "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2023.12.04-18.50.30:429][593]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.30:429][593]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.30:429][593]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.30:429][593]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.30:429][593]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.30:429][593]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.30:486][593]LogPackageName: SearchForPackageOnDisk took   0.057s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.30:486][593]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.30:498][593]LogPackageName: SearchForPackageOnDisk took   0.069s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.30:498][593]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.30:499][593]LogPackageName: SearchForPackageOnDisk took   0.070s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.30:499][593]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.30:500][593]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.30:500][593]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.30:500][593]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.30:500][593]LogPackageName: Warning: Asset path "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.30:500][593]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.30:500][593]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.30:556][593]LogPackageName: SearchForPackageOnDisk took   0.056s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.30:556][593]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.30:568][593]LogPackageName: SearchForPackageOnDisk took   0.069s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.30:568][593]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.30:569][593]LogPackageName: SearchForPackageOnDisk took   0.070s, but failed to resolve m_FogSheet_02.
+[2023.12.04-18.50.30:569][593]LogPackageName: Warning: Asset path "m_FogSheet_02" could not be resolved.
+[2023.12.04-18.50.43:100][631]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.43:101][631]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.43:101][631]LogPackageName: Warning: Asset path "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.43:101][631]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.43:135][631]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve S_Survival_CA_Chicken_02.
+[2023.12.04-18.50.43:144][631]LogPackageName: SearchForPackageOnDisk took   0.044s, but failed to resolve JW_Ice_Mountain.
+[2023.12.04-18.50.43:144][631]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2023.12.04-18.50.43:145][631]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.43:145][631]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.43:145][631]LogPackageName: Warning: Asset path "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.43:145][631]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.43:178][631]LogPackageName: SearchForPackageOnDisk took   0.033s to resolve S_Survival_CA_Chicken_02.
+[2023.12.04-18.50.43:188][631]LogPackageName: SearchForPackageOnDisk took   0.043s, but failed to resolve JW_Ice_Mountain.
+[2023.12.04-18.50.43:188][631]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2023.12.04-18.50.44:094][634]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.44:094][634]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.44:095][634]LogPackageName: Warning: Asset path "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.44:095][634]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.44:096][634]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.44:096][634]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.44:169][634]LogPackageName: SearchForPackageOnDisk took   0.075s, but failed to resolve JW_Ice_Mountain.
+[2023.12.04-18.50.44:169][634]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2023.12.04-18.50.44:186][634]LogPackageName: SearchForPackageOnDisk took   0.090s, but failed to resolve Env_ALL_Artifacts.
+[2023.12.04-18.50.44:186][634]LogPackageName: Warning: Asset path "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2023.12.04-18.50.44:187][634]LogPackageName: SearchForPackageOnDisk took   0.091s, but failed to resolve JW_Ice_Mountain.
+[2023.12.04-18.50.44:187][634]LogPackageName: Warning: Asset path "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2023.12.04-18.50.44:427][635]LogPackageName: Warning: Asset path "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2023.12.04-18.50.44:427][635]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2023.12.04-18.50.44:458][635]LogPackageName: SearchForPackageOnDisk took   0.031s, but failed to resolve Env_ALL_Artifacts.
+[2023.12.04-18.50.44:458][635]LogPackageName: Warning: Asset path "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2023.12.04-18.50.46:762][642]LogDirectoryWatcher: Display: A directory notification failed for 'D:/DIVINUM/VIDEOGAME/divinum/Divinum/Content/Developers/blunte3/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.04-18.50.46:764][642]LogDirectoryWatcher: Display: A directory notification failed for 'D:/DIVINUM/VIDEOGAME/divinum/Divinum/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.04-18.50.47:096][643]LogDirectoryWatcher: Display: A directory notification failed for 'D:/DIVINUM/VIDEOGAME/divinum/Divinum/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.04-18.51.08:235][194]LogViewport: Scene viewport resized to 472x686, mode Windowed.
+[2023.12.04-18.52.18:823][549]LogEditorTransaction: Undo Make New Scene Root
+[2023.12.04-18.52.52:798][615]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.04-18.53.33:049][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.T_Black_32 (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 0.22392 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:057][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_GlowFlare_Circular_02.T_GlowFlare_Circular_02 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:057][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_starFlare_01.T_starFlare_01 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:061][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_BlastHalf.T_BlastHalf (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:075][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Spark/T_Sparks_04_SubUV_1_4.T_Sparks_04_SubUV_1_4 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:081][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Lightning/T_Lightning_Arc_4x1.T_Lightning_Arc_4x1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:095][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Lightning/T_Lightning_Bolt_01.T_Lightning_Bolt_01 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:102][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Smoke/T_SmokeBall_01_8_8.T_SmokeBall_01_8_8 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:104][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Skill_TeleCharge/P_Skill_Telecharge_Shock_Impact_02.P_Skill_Telecharge_Shock_Impact_02:ThumbnailTexture (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 29.89575 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.33:126][ 21]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Damage/T_Cracks_Impact_01.T_Cracks_Impact_01 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: ================================================
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Total job queries 37, among them cache hits 10 (27.03%)
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Tracking 27 distinct input hashes that result in 20 distinct outputs (74.07%)
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: RAM used: 654.50 KiB of 1.60 GiB budget. Usage: 0.04%
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Shaders Compiled: 11
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Jobs assigned 11, completed 11 (100%)
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Average time worker was idle: 330.52 s
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Job execution time: average 0.87 s, max 1.27 s
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Job life time (pending + execution): average 0.92 s, max 1.37
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Shader code size: average 55.711 KiB, min 29.77 KiB, max 71.035 KiB
+[2023.12.04-18.53.34:590][ 71]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.58 s
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Average processing rate: 3.07 jobs/sec
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Total thread time: 3.65 s
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Total thread preprocess time: 0.381 s
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Percentage time preprocessing: 10.43%
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Effective parallelization: 1.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.39 sec, max 0.41 sec, min 0.35 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.33 sec, max 0.40 sec, min 0.29 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 42.71% of total time (compiled    4 times, average 0.39 sec, max 0.41 sec, min 0.35 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.64% of total time (compiled    4 times, average 0.33 sec, max 0.40 sec, min 0.29 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.84% of total time (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.36% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.45% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2023.12.04-18.53.34:591][ 71]LogShaderCompilers: Display: ================================================
+[2023.12.04-18.53.56:210][131]LogStaticMesh: StaticMesh /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01.SM_Spiral_Swirl_01 should be resaved to improve async compilation performance.
+[2023.12.04-18.53.56:212][131]LogStaticMesh: Display: Building static mesh SM_Spiral_Swirl_01...
+[2023.12.04-18.53.56:212][131]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Gradient/FX_Glow_12alpha.FX_Glow_12alpha (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.56:214][131]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01.SM_Spiral_Swirl_01
+[2023.12.04-18.53.56:215][131]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_SwipeTrail.T_SwipeTrail (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.12.04-18.53.56:222][131]LogTexture: Display: Building textures: /Game/InfinityBladeEffects/Effects/FX_Skill_Whirlwind/P_Whirlwind_Lightning_Start_01.P_Whirlwind_Lightning_Start_01:ThumbnailTexture (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 29.89575 MB), EncodeSpeed: Fast
+[2023.12.04-18.54.36:581][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.12.04-18.54.37:524][ 93]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Divinum/Maps/TestMap_Auto1
+[2023.12.04-18.54.37:526][ 93]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/TestMap_Auto1033EBA414334E1842DCA25B54F3BE74B.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/Autosaves/Game/Divinum/Maps/TestMap_Auto1.umap'
+[2023.12.04-18.54.37:544][ 93]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/Autosaves/Game/Divinum/Maps/TestMap_Auto1.umap is in the /Temp path, will not scan.
+[2023.12.04-18.54.37:544][ 93]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Divinum/Maps/TestMap' took 1.002
+[2023.12.04-18.54.37:544][ 93]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.002
+[2023.12.04-18.54.37:545][ 93]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Divinum/Blueprints/Board/BP_BoardSquare] ([2] browsable assets)...
+[2023.12.04-18.54.37:599][ 93]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare]
+[2023.12.04-18.54.37:599][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/Divinum/Blueprints/Board/BP_BoardSquare]
+[2023.12.04-18.54.37:886][ 93]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Divinum/Blueprints/Board/BP_BoardSquare_Auto1
+[2023.12.04-18.54.37:888][ 93]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquare_Auto163A5CF2B4123D94EB7163C951F2A9E07.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/Autosaves/Game/Divinum/Blueprints/Board/BP_BoardSquare_Auto1.uasset'
+[2023.12.04-18.54.37:893][ 93]LogFileHelpers: Auto-saving content packages took 0.349
+[2023.12.04-18.54.44:892][394]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Explosion01...
+[2023.12.04-18.54.44:907][394]LogAudio: Display: Chunk sizes for SoundWave /Game/StarterContent/Audio/Explosion01.Explosion01: Chunk0=28 bytes, Chunk1-N=256k
+[2023.12.04-18.54.47:021][489]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.12.04-18.54.47:282][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.04-18.54.48:310][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-18.54.48:411][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.12.04-18.54.48:702][522]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.12.04-18.54.48:704][522]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquare96699BCC43C40FDA5EF775BD44CB611C.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.12.04-18.54.48:715][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 404 ms (total: 2.99 sec)
+[2023.12.04-18.54.48:716][522]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.12.04-18.54.48:716][522]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.12.04-18.55.41:879][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-18.55.41:959][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.12.04-18.55.42:258][364]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.12.04-18.55.42:260][364]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquareE6826A5244BD6220AA43FAB3DDD682B5.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.12.04-18.55.42:270][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 390 ms (total: 3.38 sec)
+[2023.12.04-18.55.42:272][364]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.12.04-18.55.42:272][364]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.12.04-18.55.43:192][418]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.12.04-18.55.43:462][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.04-18.56.24:987][216]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.12.04-18.56.25:265][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.12.04-18.56.27:786][340]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.12.04-18.56.28:049][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.12.04-18.56.28:706][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-18.56.28:807][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.12.04-18.56.29:113][357]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.12.04-18.56.29:115][357]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquare9DB35FF949776E71DC50379A2F108F5D.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.12.04-18.56.29:126][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 420 ms (total: 3.80 sec)
+[2023.12.04-18.56.29:127][357]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.12.04-18.56.29:127][357]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.12.04-18.56.42:632][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-18.56.42:741][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/Board/BP_BoardSquare" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset" SILENT=true
+[2023.12.04-18.56.43:043][ 96]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/Board/BP_BoardSquare
+[2023.12.04-18.56.43:045][ 96]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_BoardSquare1BB12ED34272823064BD5A960D4D5FFF.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/Board/BP_BoardSquare.uasset'
+[2023.12.04-18.56.43:059][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave took 426 ms (total: 4.23 sec)
+[2023.12.04-18.56.43:060][ 96]AssetCheck: New page: Asset Save: BP_BoardSquare
+[2023.12.04-18.56.43:060][ 96]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/Board/BP_BoardSquare.BP_BoardSquare
+[2023.12.04-18.56.43:354][114]BlueprintLog: New page: Compile BP_BoardSquare
+[2023.12.04-18.56.43:637][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.12.04-18.56.48:207][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.12.04-18.56.49:418][344]LogSlate: Window 'Save Content' being destroyed
+[2023.12.04-18.56.49:427][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-18.56.49:475][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Maps/TestMap" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-18.56.49:560][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.04-18.56.50:544][344]LogSavePackage: Moving output files for package: /Game/Divinum/Maps/TestMap
+[2023.12.04-18.56.50:546][344]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/TestMapD4CFD28B461F3DD1926D678E855D76ED.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Maps/TestMap.umap'
+[2023.12.04-18.56.50:572][344]LogFileHelpers: Saving map 'TestMap' took 1.098
+[2023.12.04-18.56.50:579][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.15 sec (total: 5.38 sec)
+[2023.12.04-18.56.50:581][344]AssetCheck: New page: Asset Save: TestMap
+[2023.12.04-18.56.50:581][344]LogContentValidation: Display: Validating /Script/Engine.World /Game/Divinum/Maps/TestMap.TestMap
