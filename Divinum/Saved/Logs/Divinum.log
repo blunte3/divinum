@@ -1256,3 +1256,205 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2023.12.04-22.46.50:076][444]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
 [2023.12.04-22.46.50:755][485]BlueprintLog: New page: Compile BP_TokenPiece
 [2023.12.04-22.46.50:814][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.12.04-22.48.06:761][ 81]LogViewport: Scene viewport resized to 855x894, mode Windowed.
+[2023.12.04-22.48.09:405][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.12.04-22.48.10:758][219]LogSlate: Window 'Save Content' being destroyed
+[2023.12.04-22.48.10:768][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.48.10:820][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Maps/TestMap" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-22.48.10:899][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.12.04-22.48.11:879][219]LogSavePackage: Moving output files for package: /Game/Divinum/Maps/TestMap
+[2023.12.04-22.48.11:881][219]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/TestMapFDFBFAF747A3AFBFEAE5CDA3B55063DF.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Maps/TestMap.umap'
+[2023.12.04-22.48.11:906][219]LogFileHelpers: Saving map 'TestMap' took 1.086
+[2023.12.04-22.48.11:913][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.14 sec (total: 1.58 sec)
+[2023.12.04-22.48.11:915][219]AssetCheck: New page: Asset Save: TestMap
+[2023.12.04-22.48.11:915][219]LogContentValidation: Display: Validating /Script/Engine.World /Game/Divinum/Maps/TestMap.TestMap
+[2023.12.04-22.48.13:600][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.04-22.48.22:035][301]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.04-22.48.22:072][301]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPieceV2.BP_TokenPieceV2
+	Asset Type: Blueprint
+[2023.12.04-22.48.22:316][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.12.04-22.48.22:361][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.12.04-22.48.22:376][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.12.04-22.48.22:390][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.12.04-22.48.31:349][751]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2023.12.04-22.48.31:356][751]LogContentBrowser: Creating deferred item: NewInterface
+[2023.12.04-22.48.31:366][752]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2023.12.04-22.48.40:657][266]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_TokenPiece
+[2023.12.04-22.48.40:663][266]LogContentBrowser: End creating deferred item NewInterface
+[2023.12.04-22.48.42:126][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.12.04-22.48.43:408][346]LogSlate: Window 'Save Content' being destroyed
+[2023.12.04-22.48.43:417][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.48.43:473][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Maps/TestMap" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-22.48.43:555][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.12.04-22.48.44:535][346]LogSavePackage: Moving output files for package: /Game/Divinum/Maps/TestMap
+[2023.12.04-22.48.44:537][346]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/TestMap36D438704815464C4E2302B897130AAD.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Maps/TestMap.umap'
+[2023.12.04-22.48.44:570][346]LogFileHelpers: Saving map 'TestMap' took 1.099
+[2023.12.04-22.48.44:579][346]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BPI_TokenPiece
+[2023.12.04-22.48.44:579][346]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BPI_TokenPieceADF3C0814A74D636690E1DA0DA3A882F.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BPI_TokenPiece.uasset'
+[2023.12.04-22.48.44:590][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.17 sec (total: 2.75 sec)
+[2023.12.04-22.48.44:592][346]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-22.48.44:592][346]LogContentValidation: Display: Validating /Script/Engine.World /Game/Divinum/Maps/TestMap.TestMap
+[2023.12.04-22.48.44:592][346]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BPI_TokenPiece.BPI_TokenPiece
+[2023.12.04-22.48.45:874][411]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Divinum/Blueprints/TokenPieces/BPI_TokenPiece.BPI_TokenPiece
+[2023.12.04-22.48.45:875][411]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-22.48.45:875][411]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-22.49.10:820][891]BlueprintLog: New page: Compile BPI_TokenPiece
+[2023.12.04-22.49.10:836][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.12.04-22.49.11:796][947]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.49.11:871][947]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BPI_TokenPiece
+[2023.12.04-22.49.11:873][947]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BPI_TokenPiece5FE494E546C175D05B1ED0ACB522BB86.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BPI_TokenPiece.uasset'
+[2023.12.04-22.49.11:884][947]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 2.84 sec)
+[2023.12.04-22.49.11:885][947]AssetCheck: New page: Asset Save: BPI_TokenPiece
+[2023.12.04-22.49.11:885][947]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BPI_TokenPiece.BPI_TokenPiece
+[2023.12.04-22.49.14:593][108]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-22.49.14:594][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-22.49.53:607][647]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-22.49.53:653][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.12.04-22.49.54:407][686]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.49.54:527][686]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.49.54:530][686]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPieceBAE336014770B1497B1D4E9E4CAD2ABE.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.49.54:540][686]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 2.98 sec)
+[2023.12.04-22.49.54:541][686]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.49.54:541][686]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-22.51.14:689][365]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.51.14:882][365]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.51.14:884][365]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece36887F62453F8B893EBE0295E3B34CE5.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.51.14:895][365]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 3.18 sec)
+[2023.12.04-22.51.14:896][365]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.51.14:897][365]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-22.51.15:438][398]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-22.51.15:492][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.12.04-22.52.20:952][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.52.21:138][174]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.52.21:140][174]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece44A1D65746A180A0BFF1FFAC433C099D.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.52.21:152][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 3.38 sec)
+[2023.12.04-22.52.21:154][174]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.52.21:154][174]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-22.52.21:649][204]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-22.52.21:699][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.12.04-22.53.56:469][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.53.56:522][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Divinum/Blueprints/BP_Gamemode" FILE="../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset" SILENT=true
+[2023.12.04-22.53.56:893][153]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/BP_Gamemode
+[2023.12.04-22.53.56:896][153]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_Gamemode994AF0304BFF6EE4AE40FAADC8F24CE8.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/BP_Gamemode.uasset'
+[2023.12.04-22.53.56:907][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 438 ms (total: 3.82 sec)
+[2023.12.04-22.53.56:908][153]AssetCheck: New page: Asset Save: BP_Gamemode
+[2023.12.04-22.53.56:908][153]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/BP_Gamemode.BP_Gamemode
+[2023.12.04-22.53.57:269][175]BlueprintLog: New page: Compile BP_Gamemode
+[2023.12.04-22.53.57:323][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.12.04-22.55.04:266][  1]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.55.04:460][  1]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.55.04:461][  1]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece45315462414948BF7DA79C9717A5D36D.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.55.04:473][  1]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 4.03 sec)
+[2023.12.04-22.55.04:474][  1]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.55.04:474][  1]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-22.55.05:672][ 72]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-22.55.05:725][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.12.04-22.56.57:741][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.56.57:951][719]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.56.57:953][719]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece9E4A135F4321A17726BCBEB73F41B9A2.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.56.57:964][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 222 ms (total: 4.25 sec)
+[2023.12.04-22.56.57:966][719]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.56.57:966][719]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-22.56.58:382][744]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-22.56.58:434][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.12.04-22.58.29:458][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.58.29:669][ 77]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.58.29:671][ 77]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece14B9565A4A7456835017409C0836FDA5.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.58.29:682][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 4.47 sec)
+[2023.12.04-22.58.29:683][ 77]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.58.29:683][ 77]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-22.58.30:117][103]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-22.58.30:176][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.12.04-22.59.04:728][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.59.04:959][128]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.59.04:961][128]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece65990BAF4271E9593EB2F9860E512397.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.59.04:973][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 244 ms (total: 4.72 sec)
+[2023.12.04-22.59.04:974][128]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.59.04:974][128]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-22.59.05:335][150]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-22.59.05:397][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.04-22.59.13:737][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-22.59.13:957][623]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-22.59.13:958][623]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece83E5B9514FA56B61C575288AAD93C7C5.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-22.59.13:969][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 232 ms (total: 4.95 sec)
+[2023.12.04-22.59.13:970][623]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-22.59.13:970][623]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-23.00.04:503][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.00.04:753][576]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-23.00.04:755][576]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece65D6F6154F74226F99CE65ABAC459F67.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-23.00.04:769][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 5.22 sec)
+[2023.12.04-23.00.04:770][576]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-23.00.04:770][576]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-23.00.06:551][683]BlueprintLog: New page: Compile BP_TokenPiece
+[2023.12.04-23.00.06:604][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: ================================================
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: RAM used: 34.25 KiB of 1.60 GiB budget. Usage: 0.00%
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 0.53 s
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Job life time (pending + execution): average 0.55 s, max 0.55
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Shader code size: average 66.199 KiB, min 66.199 KiB, max 66.199 KiB
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.55 s
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Average processing rate: 1.82 jobs/sec
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Total thread time: 0.244 s
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Total thread preprocess time: 0.031 s
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Percentage time preprocessing: 12.83%
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Effective parallelization: 0.44 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2023.12.04-23.00.11:355][948]LogShaderCompilers: Display: ================================================
+[2023.12.04-23.00.11:799][968]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.12.04-23.00.22:297][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.00.22:530][562]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-23.00.22:532][562]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece55AC7BED497E3BBB889E789B8121E3CE.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-23.00.22:542][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 5.46 sec)
+[2023.12.04-23.00.22:544][562]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-23.00.22:544][562]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-23.00.25:048][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.00.25:218][712]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-23.00.25:220][712]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece4CB3326648080D623D0B3EABCBB51B85.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-23.00.25:231][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 5.65 sec)
+[2023.12.04-23.00.25:231][712]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-23.00.25:231][712]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-23.00.29:747][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.00.29:984][976]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-23.00.29:986][976]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece91D05D9B4C43FF85FF94B29A24E7270F.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-23.00.29:997][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 249 ms (total: 5.90 sec)
+[2023.12.04-23.00.29:998][976]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-23.00.29:998][976]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-23.00.37:167][396]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-23.00.37:382][396]LogSavePackage: Moving output files for package: /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece
+[2023.12.04-23.00.37:384][396]LogSavePackage: Moving '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Saved/BP_TokenPiece458A8C574BE5FE6FBD80AF84432F5DB0.tmp' to '../../../../../DIVINUM/VIDEOGAME/divinum/Divinum/Content/Divinum/Blueprints/TokenPieces/BP_TokenPiece.uasset'
+[2023.12.04-23.00.37:395][396]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 6.12 sec)
+[2023.12.04-23.00.37:396][396]AssetCheck: New page: Asset Save: BP_TokenPiece
+[2023.12.04-23.00.37:396][396]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Divinum/Blueprints/TokenPieces/BP_TokenPiece.BP_TokenPiece
+[2023.12.04-23.00.44:426][783]LogViewport: Scene viewport resized to 854x894, mode Windowed.
+[2023.12.04-23.00.44:444][784]LogViewport: Scene viewport resized to 852x894, mode Windowed.
+[2023.12.04-23.00.44:471][785]LogViewport: Scene viewport resized to 838x894, mode Windowed.
+[2023.12.04-23.00.44:497][786]LogViewport: Scene viewport resized to 823x894, mode Windowed.
+[2023.12.04-23.00.44:531][787]LogViewport: Scene viewport resized to 801x894, mode Windowed.
+[2023.12.04-23.00.44:559][788]LogViewport: Scene viewport resized to 789x894, mode Windowed.
+[2023.12.04-23.00.44:583][789]LogViewport: Scene viewport resized to 782x894, mode Windowed.
+[2023.12.04-23.00.44:614][790]LogViewport: Scene viewport resized to 776x894, mode Windowed.
+[2023.12.04-23.00.44:636][791]LogViewport: Scene viewport resized to 768x894, mode Windowed.
+[2023.12.04-23.00.44:659][792]LogViewport: Scene viewport resized to 760x894, mode Windowed.
+[2023.12.04-23.00.44:683][793]LogViewport: Scene viewport resized to 750x894, mode Windowed.
+[2023.12.04-23.00.44:709][794]LogViewport: Scene viewport resized to 746x894, mode Windowed.
+[2023.12.04-23.00.44:732][795]LogViewport: Scene viewport resized to 743x894, mode Windowed.
+[2023.12.04-23.00.44:757][796]LogViewport: Scene viewport resized to 741x894, mode Windowed.
+[2023.12.04-23.00.44:781][797]LogViewport: Scene viewport resized to 736x894, mode Windowed.
+[2023.12.04-23.00.44:805][798]LogViewport: Scene viewport resized to 729x894, mode Windowed.
+[2023.12.04-23.00.44:830][799]LogViewport: Scene viewport resized to 720x894, mode Windowed.
+[2023.12.04-23.00.44:856][800]LogViewport: Scene viewport resized to 713x894, mode Windowed.
+[2023.12.04-23.00.44:878][801]LogViewport: Scene viewport resized to 703x894, mode Windowed.
+[2023.12.04-23.00.44:904][802]LogViewport: Scene viewport resized to 698x894, mode Windowed.
+[2023.12.04-23.00.44:926][803]LogViewport: Scene viewport resized to 695x894, mode Windowed.
